@@ -1,527 +1,331 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Home</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Place favicon.ico in the root directory -->
-    <!-- all css here -->
-    <!-- bootstrap v3.3.6 css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- animate css -->
-    <link rel="stylesheet" href="css/animate.css" />
-    <!-- jquery-ui.min css -->
-    <link rel="stylesheet" href="css/jquery-ui.min.css" />
-    <!-- meanmenu css -->
-    <link rel="stylesheet" href="css/meanmenu.min.css" />
-    <!-- owl.carousel css -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <!-- bxslider css -->
-    <!--flaticon css -->
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <!-- font-awesome css -->
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link href="css/video-js.css" rel="stylesheet" />
-    <!-- style css -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css" />
-    <!-- modernizr css -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-  </head>
 
-  <body>
-    <a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
-    <!-- preloader Start -->
-    <div id="preloader">
-      <div id="status">
-        <img src="images/banner/loader.gif" id="preloader_image" alt="loader" />
-      </div>
-    </div>
-    <!--Header area start here-->
-    <div section-scroll="0" class="wd_scroll_wrap">
-      <header class="gc_main_menu_wrapper">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-6">
-              <div class="logo-area">
-                <a href="index.html"
-                  ><img src="images/logo/logo.png" alt="logo"
-                /></a>
-              </div>
-            </div>
-            <!-- Mobile Menu  Start -->
-            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-6">
-              <div class="menu-area hidden-xs">
-                <nav class="wd_single_index_menu btc_main_menu">
-                  <ul>
-                    <li><a href="0">Home</a></li>
-                    <li><a href="0">AuditReport</a></li>
-                    <li><a href="1">About</a></li>
-                    <li><a href="1">Tokenomic</a></li>
-                    <li><a href="2">Features</a></li>
-                    <li><a href="3">Road Map</a></li>
-                    <li><a href="4">White Paper</a></li>
-                    <li><a href="5">FQA</a></li>
-                    <li><a href="6">Contact Us</a></li>
-                    <!-- <li><a href="6">Tokens</a></li>
-								<li><a href="7">News</a></li> -->
-                  </ul>
-                </nav>
-                <div class="language">
-                  <span class="lng-in"
-                    ><img src="images/icons/12.png" alt=""
-                  /></span>
-                  <ul class="lng-out">
-                    <li><img src="images/icons/12.png" alt="" /></li>
-                    <li><img src="images/icons/12.png" alt="" /></li>
-                  </ul>
-                </div>
-                <div class="login-btn">
-                  <a href="#" class="btn1"
-                    ><i class="fa fa-user"></i><span>Login</span></a
-                  >
-                </div>
-              </div>
-              <!-- mobile menu area start -->
-              <div class="rp_mobail_menu_main_wrapper visible-xs">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div id="toggle">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        version="1.1"
-                        id="Capa_1"
-                        x="0px"
-                        y="0px"
-                        viewBox="0 0 31.177 31.177"
-                        style="enable-background: new 0 0 31.177 31.177"
-                        xml:space="preserve"
-                        width="25px"
-                        height="25px"
-                      >
-                        <g>
-                          <g>
-                            <path
-                              class="menubar"
-                              d="M30.23,1.775H0.946c-0.489,0-0.887-0.398-0.887-0.888S0.457,0,0.946,0H30.23    c0.49,0,0.888,0.398,0.888,0.888S30.72,1.775,30.23,1.775z"
-                              fill="#fff"
-                            />
-                          </g>
-                          <g>
-                            <path
-                              class="menubar"
-                              d="M30.23,9.126H12.069c-0.49,0-0.888-0.398-0.888-0.888c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,8.729,30.72,9.126,30.23,9.126z"
-                              fill="#fff"
-                            />
-                          </g>
-                          <g>
-                            <path
-                              class="menubar"
-                              d="M30.23,16.477H0.946c-0.489,0-0.887-0.398-0.887-0.888c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,16.079,30.72,16.477,30.23,16.477z"
-                              fill="#fff"
-                            />
-                          </g>
-                          <g>
-                            <path
-                              class="menubar"
-                              d="M30.23,23.826H12.069c-0.49,0-0.888-0.396-0.888-0.887c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,23.43,30.72,23.826,30.23,23.826z"
-                              fill="#fff"
-                            />
-                          </g>
-                          <g>
-                            <path
-                              class="menubar"
-                              d="M30.23,31.177H0.946c-0.489,0-0.887-0.396-0.887-0.887c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.398,0.888,0.888C31.118,30.78,30.72,31.177,30.23,31.177z"
-                              fill="#fff"
-                            />
-                          </g>
-                        </g>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <div id="sidebar">
-                  <h1><a href="#">Bit Money</a></h1>
-                  <div id="toggle_close">&times;</div>
-                  <div id="cssmenu" class="wd_single_index_menu">
-                    <ul>
-                      <!-- <li><a href="0">Home</a></li>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Home</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Place favicon.ico in the root directory -->
+<!-- all css here -->
+<!-- bootstrap v3.3.6 css -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- animate css -->
+<link rel="stylesheet" href="css/animate.css">
+<!-- jquery-ui.min css -->
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<!-- meanmenu css -->
+<link rel="stylesheet" href="css/meanmenu.min.css">
+<!-- owl.carousel css -->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<!-- bxslider css -->
+<!--flaticon css -->
+<link rel="stylesheet" href="css/flaticon.css">
+<!-- font-awesome css -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link href="css/video-js.css" rel="stylesheet">
+<!-- style css -->
+<link rel="stylesheet" href="style.css">
+<!-- responsive css -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- modernizr css -->
+<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+<a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
+<!-- preloader Start -->
+<div id="preloader">
+	<div id="status"><img src="images/banner/loader.gif" id="preloader_image" alt="loader">
+	</div>
+</div>
+<!--Header area start here-->
+<div section-scroll='0' class="wd_scroll_wrap">
+	<header class="gc_main_menu_wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-6">
+					<div class="logo-area">
+						<a href="index.html"><img src="images/logo/logo.png" alt="logo" /></a>
+					</div>
+				</div>
+				<!-- Mobile Menu  Start -->
+				<div class="col-lg-9 col-md-9 col-sm-12 col-xs-6">
+					<div class="menu-area  hidden-xs">
+						<nav class="wd_single_index_menu btc_main_menu">
+							<ul>
+								<li><a href="0">Home</a></li>
+								<li><a href="1">About</a></li>
+								<li><a href="2">Features</a></li>
+								<li><a href="3">Project</a></li>
+								<!-- <li><a href="4">Steps</a></li> -->
+								<li><a href="5">Road Map</a></li>
+								<li><a href="6">Achievements</a></li>
+								<li><a href="7">News</a></li>
+							</ul>
+						</nav>
+						<div class="language">
+							<span class="lng-in">English </span>
+
+							<ul class="lng-out">
+								<li>English</li>
+                                <li>中文</li>
+							</ul>
+						</div>
+						<!-- <div class="login-btn">
+							<a href="#" class="btn1"><i class="fa fa-user"></i><span>Login</span></a>
+						</div> -->
+					</div>
+					<!-- mobile menu area start -->
+					<div class="rp_mobail_menu_main_wrapper visible-xs">
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="toggle">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.177 31.177" style="enable-background:new 0 0 31.177 31.177;" xml:space="preserve" width="25px" height="25px">
+										<g>
+											<g>
+												<path class="menubar" d="M30.23,1.775H0.946c-0.489,0-0.887-0.398-0.887-0.888S0.457,0,0.946,0H30.23    c0.49,0,0.888,0.398,0.888,0.888S30.72,1.775,30.23,1.775z" fill="#fff" />
+											</g>
+											<g>
+												<path class="menubar" d="M30.23,9.126H12.069c-0.49,0-0.888-0.398-0.888-0.888c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,8.729,30.72,9.126,30.23,9.126z" fill="#fff" />
+											</g>
+											<g>
+												<path class="menubar" d="M30.23,16.477H0.946c-0.489,0-0.887-0.398-0.887-0.888c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,16.079,30.72,16.477,30.23,16.477z" fill="#fff" />
+											</g>
+											<g>
+												<path class="menubar" d="M30.23,23.826H12.069c-0.49,0-0.888-0.396-0.888-0.887c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,23.43,30.72,23.826,30.23,23.826z" fill="#fff" />
+											</g>
+											<g>
+												<path class="menubar" d="M30.23,31.177H0.946c-0.489,0-0.887-0.396-0.887-0.887c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.398,0.888,0.888C31.118,30.78,30.72,31.177,30.23,31.177z" fill="#fff" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div id="sidebar">
+							<h1><a href="#">C Token</a></h1>
+							<div id="toggle_close">&times;</div>
+							<div id='cssmenu' class="wd_single_index_menu">
+								<ul>
+									<li><a href="0">Home</a></li>
 									<li><a href="1">About</a></li>
 									<li><a href="2">Features</a></li>
 									<li><a href="3">Project</a></li>
-									<li><a href="4">Steps</a></li>
+									<!-- <li><a href="4">Steps</a></li> -->
 									<li><a href="5">Road Map</a></li>
 									<li><a href="6">Tokens</a></li>
-									<li><a href="7">News</a></li> -->
-                      <li><a href="0">Home</a></li>
-                      <li><a href="0">AuditReport</a></li>
-                      <li><a href="1">About</a></li>
-                      <li><a href="1">Tokenomic</a></li>
-                      <li><a href="2">Features</a></li>
-                      <li><a href="3">Road Map</a></li>
-                      <li><a href="4">White Paper</a></li>
-                      <li><a href="5">FQA</a></li>
-                      <li><a href="6">Contact Us</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <!-- Mobile Menu  End -->
-            </div>
-          </div>
-        </div>
-      </header>
-      <!--Header area end here-->
-      <!--Slider area start here-->
-      <section class="slider-area">
-        <canvas id="canvas"> </canvas>
-        <div id="particles-js">
-          <div
-            id="carousel-example-generic"
-            class="carousel slide"
-            data-ride="carousel"
-          >
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <div class="carousel-captions caption-1">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="slider-content">
-                          <ul>
-                            <li
-                              data-animation="animated bounceInDown"
-                              class="slider_social_icon1"
-                            >
-                              <a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li
-                              data-animation="animated bounceInDown"
-                              class="slider_social_icon2"
-                            >
-                              <a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li
-                              data-animation="animated bounceInDown"
-                              class="slider_social_icon3"
-                            >
-                              <a href="#"><i class="fa fa-send-o"></i></a>
-                            </li>
-                            <li
-                              data-animation="animated bounceInDown"
-                              class="slider_social_icon4"
-                            >
-                              <a href="#"><i class="fa fa-bitcoin"></i></a>
-                            </li>
-                            <li
-                              data-animation="animated bounceInDown"
-                              class="slider_social_icon5"
-                            >
-                              <a href="#"><i class="fa fa-envelope"></i></a>
-                            </li>
-                          </ul>
-                          <!-- <h2 data-animation="animated bounceInLeft">
-                            Bit Money - Lending & <br />Investment Platform
-                          </h2> -->
-                          <div class="buttons">
-                            <a
-                              href="#"
-                              class="btn1"
-                              data-animation="animated bounceInUp"
-                              >Buy $C On Mdex</a
-                            >
-                            <!-- <a href="#" class="btn1" data-animation="animated bounceInUp">WHITEPAPER</a>
-												<a href="#" class="btn2" data-animation="animated bounceInUp">Buy Tokens Now!</a> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="
-                          col-lg-6 col-md-6 col-sm-12 col-xs-12
-                          hidden-xs hidden-sm
-                        "
-                      >
-                        <div
-                          class="btc_slider_about_img"
-                          data-animation="animated bounceInDown"
-                        >
-                          <img src="images/about/1.png" alt="about_img" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <div class="slider-content">
-                        <ul>
-                          <li
-                            data-animation="animated bounceInDown"
-                            class="slider_social_icon1"
-                          >
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                          </li>
-                          <li
-                            data-animation="animated bounceInDown"
-                            class="slider_social_icon2"
-                          >
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                          </li>
-                          <li
-                            data-animation="animated bounceInDown"
-                            class="slider_social_icon3"
-                          >
-                            <a href="#"><i class="fa fa-send-o"></i></a>
-                          </li>
-                          <li
-                            data-animation="animated bounceInDown"
-                            class="slider_social_icon4"
-                          >
-                            <a href="#"><i class="fa fa-bitcoin"></i></a>
-                          </li>
-                          <li
-                            data-animation="animated bounceInDown"
-                            class="slider_social_icon5"
-                          >
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-                          </li>
-                        </ul>
-                        <!-- <h2 data-animation="animated bounceInLeft">
-                          Bit Money - Lending & <br />Investment Platform
-                        </h2> -->
-                        <div class="buttons">
-                          <a
-                            href="#"
-                            class="btn1"
-                            data-animation="animated bounceInUp"
-                            >Buy $C On Mdex</a
-                          >
-                          <!-- <a href="#" class="btn1" data-animation="animated bounceInUp">WHITEPAPER</a>
-											<a href="#" class="btn2" data-animation="animated bounceInUp">Buy Tokens Now!</a> -->
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="
-                        col-lg-6 col-md-6 col-sm-12 col-xs-12
-                        hidden-xs hidden-sm
-                      "
-                    >
-                      <div
-                        class="btc_slider_about_img"
-                        data-animation="animated bounceInDown"
-                      >
-                        <img src="images/about/1.png" alt="about_img" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-nevigation">
-                <a
-                  class="prev"
-                  href="#carousel-example-generic"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <i class="fa fa-angle-left"></i>
-                </a>
-                <a
-                  class="next"
-                  href="#carousel-example-generic"
-                  role="button"
-                  data-slide="next"
-                >
-                  <i class="fa fa-angle-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Slider area end here-->
-      <!-- <section class="currency-area">
+									<li><a href="7">News</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Mobile Menu  End -->
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--Header area end here-->
+	<!--Slider area start here-->
+	<section class="slider-area">
+		<canvas id="canvas">
+
+		</canvas>
+		<div id="particles-js">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<div class="carousel-captions caption-1">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+										<div class="slider-content">
+											<ul>
+												<li data-animation="animated bounceInDown" class="slider_social_icon1"><a href="https://github.com/c-token"><i class="fa fa-github"></i></a></li>
+												<li data-animation="animated bounceInDown" class="slider_social_icon2"><a href="https://twitter.com/Ctokenofficial"><i class="fa fa-twitter"></i></a></li>
+												<li data-animation="animated bounceInDown" class="slider_social_icon3"><a href="https://t.me/c_for_wealth"><i class="fa fa-telegram"></i></a></li>
+												<li data-animation="animated bounceInDown" class="slider_social_icon4"><a href="https://weibo.com/p/1008082a4524cefe51a08257289bb48ea6f28f/super_index"><i class="fa fa-weibo"></i></a></li>
+												<li data-animation="animated bounceInDown" class="slider_social_icon5"><a href="https://jq.qq.com/?_wv=1027&k=PXek65jn"><i class="fa fa-qq"></i></a></li>
+											</ul>
+											<h2 data-animation="animated bounceInLeft">C &nbsp;Token - Blockchain & <br>Carbon Neutralization</h2>
+											<div class="buttons">
+												<a href="https://c-token.oss-cn-beijing.aliyuncs.com/Smart%20contract%20security%20audit%20report%20-%20C.pdf"  class="btn1" data-animation="animated bounceInUp">Audit Report</a>
+												<a href="https://c-token.oss-cn-beijing.aliyuncs.com/C-Token-whitepaper-v1.pdf" target="_blank" class="btn2" data-animation="animated bounceInUp">White Paper</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-xs hidden-sm">
+										<div class="btc_slider_about_img" data-animation="animated bounceInDown">
+											<img src="images/about/1.png" alt="about_img">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="item">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+									<div class="slider-content">
+										<ul>
+											<li data-animation="animated bounceInDown" class="slider_social_icon1"><a href="#"><i class="fa fa-github"></i></a></li>
+											<li data-animation="animated bounceInDown" class="slider_social_icon2"><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li data-animation="animated bounceInDown" class="slider_social_icon3"><a href="#"><i class="fa fa-send-o"></i></a></li>
+											<li data-animation="animated bounceInDown" class="slider_social_icon4"><a href="#"><i class="fa fa-bitcoin"></i></a></li>
+											<li data-animation="animated bounceInDown" class="slider_social_icon5"><a href="#"><i class="fa fa-qq"></i></a></li>
+										</ul>
+										<h2 data-animation="animated bounceInLeft">Bit Money - Lending & <br>Investment Platform</h2>
+										<div class="buttons">
+											<a href="#" class="btn1" data-animation="animated bounceInUp">WHITEPAPER</a>
+											<a href="#" class="btn2" data-animation="animated bounceInUp">Buy Tokens Now!</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12  hidden-xs hidden-sm">
+									<div class="btc_slider_about_img" data-animation="animated bounceInDown">
+											<img src="images/about/1.png" alt="about_img">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> -->
+					<!-- <div class="carousel-nevigation">
+						<a class="prev" href="#carousel-example-generic" role="button" data-slide="prev">
+							<i class="fa fa-angle-left"></i>
+						</a>
+						<a class="next" href="#carousel-example-generic" role="button" data-slide="next">
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Slider area end here-->
+	<section class="currency-area">
 		<div class="container-fliud">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="rete-list bt_title wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
-						<div class="content">
+						<div class="content" align="center">
 							<div class="con">
-								<h2><img src="images/icons/1.png" alt=""><span>Bitcoin</span></h2>
-								<button class="btn3">4.160651 BTC</button>
+								<h2><img src="images/icons/nft_one.png" alt=""><span>NO.001</span></h2>
+								<button class="btn3" style="margin-left: 2%;">100000000C</button>
 							</div>
 						</div>
 					</div>
 					<div class="rete-list bt_title wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
-						<div class="content">
+						<div class="content" align="center">
 							<div class="con">
-								<h2><img src="images/icons/2.png" alt=""><span>Ethereum</span></h2>
-								<button class="btn3">3.245000 ETH</button>
+								<h2><img src="images/icons/nft_two.png" alt=""><span>NO.002</span></h2>
+								<button class="btn3" style="margin-left: 5%;">120000000C</button>
 							</div>
 						</div>
 					</div>
 					<div class="rete-list bt_title wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
-						<div class="content">
+						<div class="content" align="center">
 							<div class="con">
-								<h2><img src="images/icons/3.png" alt=""><span>Dollar (USD)</span></h2>
-								<button class="btn3">58634.000 USD</button>
+								<h2><img src="images/icons/nft_three.png" alt=""><span>NO.003</span></h2>
+								<button class="btn3" style="margin-left: 5%;">150000000C</button>
 							</div>
 						</div>
 					</div>
 					<div class="rete-list bt_title wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
-						<div class="content">
+						<div class="content" align="center">
 							<div class="con">
-								<h2><img src="images/icons/4.png" alt=""><span>Total USD</span></h2>
-								<button class="btn3">111969.062 USD</button>
+								<h2><img src="images/icons/nft_four.png" alt=""><span>NO.004</span></h2>
+								<button class="btn3" style="margin-left: 8%;">200000000C</button>
 							</div>
 						</div>
 					</div>
 					<div class="rete-list hidden-md   wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
-						<div class="content">
-							<div class="con">
-								<h2><img src="images/icons/5.png" alt=""><span>Token Sale</span></h2>
-								<button class="btn3">346636.775</button>
+						<div class="content" align="center">
+							<div class="con" >
+								<h2><img src="images/icons/nft_five.png" height="220" width="220" alt=""><span>NO.005</span></h2>
+								<button  class="btn3" style="margin-left: 10%;">800000000C</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section> -->
-    </div>
-    <!--About area start here-->
-    <div section-scroll="1" class="wd_scroll_wrap">
-      <section class="about-area pd-t70 pd-b100 jarallax bg-img">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <div class="about-content">
-                <h2
-                  class="f-40 fw-400 wow fadeIn animated"
-                  data-wow-duration="1.0s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  About C token
-                </h2>
-                <p
-                  class="wow fadeIn animated"
-                  data-wow-duration="1.3s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1.3s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  Contract : 0xFeD613CdD4182b73A032fe1f03Bd7872465010F8
-                </p>
-                <p
-                  class="wow fadeIn animated"
-                  data-wow-duration="1.6s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1.6s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  C token is a new conceptive token about environmental
-                  protection based on heco smartchain, developed by the
-                  international r&d team of the top called Fintech and
-                  blockchain enthusiasts. It is a kind of token with the nature
-                  of community autonomy.
-                </p>
-                <p
-                  class="wow fadeIn animated"
-                  data-wow-duration="1.9s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1.9s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  After the completion of the creation airdrop, the project
-                  owner destroyed the private key of C token. The community is
-                  now completely autonomous, and spontaneously establishes a
-                  foundation for ecological construction in the nearly future.
-                </p>
-                <!-- <div class="buttons">
-							<a href="#" class="btn1">WHITEPAPER</a>
-							<a href="#" class="btn3">Buy Tokens Now!</a>
-						</div> -->
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <div class="btc_timer_section_wrapper">
-                <div id="clockdiv">
-                  <div>
-                    <span class="days"></span>
-                    <div class="smalltext">Days</div>
-                  </div>
-                  <div>
-                    <span class="hours"></span>
-                    <div class="smalltext">Hours</div>
-                  </div>
-                  <div>
-                    <span class="minutes"></span>
-                    <div class="smalltext">Minutes</div>
-                  </div>
-                  <div>
-                    <span class="seconds"></span>
-                    <div class="smalltext">Seconds</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--About area end here-->
-      <div class="sud">
-        <svg
-          version="1.1"
-          id="Layer_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          viewBox="0 0 1920 181.1"
-          style="enable-background: new 0 0 1920 181.1"
-          xml:space="preserve"
-        >
-          <style type="text/css">
-            .st0 {
-              fill-rule: evenodd;
-              clip-rule: evenodd;
-              fill: #10122d;
-            }
-          </style>
-          <g>
-            <path
-              class="st0"
-              d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
+	</section>
+</div>
+<!--About area start here-->
+<div section-scroll='1' class="wd_scroll_wrap">
+	<section class="about-area pd-t70 pd-b100 jarallax bg-img">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="about-content">
+						<h2 class="f-40 fw-400 wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">About C token</h2>
+                        <p>
+                            heco :  <a href="https://hecoinfo.com/token/0xfed613cdd4182b73a032fe1f03bd7872465010f8">0xfed613cdd4182b73a032fe1f03bd7872465010f8</a>
+                        </p>
+						<p>
+							bsc : &nbsp;&nbsp;&nbsp;<a href="https://bscscan.com/token/0x1f09c5fa5522036c7cc7cddea46e9961ca01ead2">0x1f09c5fa5522036c7cc7cddea46e9961ca01ead2</a>
+						</p>
+
+						<p class="wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">C token is a new conceptive token about environmental protection based on heco smartchain, developed by the international r&d team of the top called Fintech and blockchain enthusiasts.</p>
+						<p class="wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">It is a kind of token with the nature of community autonomy. After the completion of the creation airdrop, the project owner destroyed the private key of C token. </p>
+						<p class="wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">The community is now completely autonomous, and spontaneously establishes a foundation for ecological construction in the nearly future.</p>
+                        <div class="buttons">
+                            <a href="https://c-token.oss-cn-beijing.aliyuncs.com/Smart%20contract%20security%20audit%20report%20-%20C.pdf" target="_blank"  class="btn1" data-animation="animated bounceInUp">Audit Report</a>
+                            <a href="https://c-token.oss-cn-beijing.aliyuncs.com/C-Token-whitepaper-v1.pdf" target="_blank"  class="btn1" data-animation="animated bounceInUp">White Paper</a>
+                        </div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="btc_timer_section_wrapper">
+						<div id="clockdiv">
+							<div>
+								<span class="days"></span>
+								<div class="smalltext">Days</div>
+							</div>
+							<div>
+								<span class="hours"></span>
+								<div class="smalltext">Hours</div>
+							</div>
+							<div>
+								<span class="minutes"></span>
+								<div class="smalltext">Minutes</div>
+							</div>
+							<div>
+								<span class="seconds"></span>
+								<div class="smalltext">Seconds</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--About area end here-->
+	<div class="sud">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
+			<style type="text/css">
+				.st0 {
+					fill-rule: evenodd;
+					clip-rule: evenodd;
+					fill: #10122d;
+				}
+			</style>
+			<g>
+				<path class="st0" d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
 				 c20.3,9.7,68,40.3,134-12c24-11,59-16.3,104,2c21,7.3,85,27.7,117-14c24-30.7,62.7-55,141-12c26,10.3,72,14.7,110-14
 				 c37.7-19,89.7-29,122,53c23,32.7,47.7,66.3,97,26c24-22.7,51-78.3,137-38c0,0,28.3,15.7,52,15c23.7-0.7,50.7,4.3,76,41
 				 c19.7,19.7,71,36.7,121-2c0,0,22.3-16,55-12c0,0,32.7,6.7,56-71c23.3-76,79-92,122-29c9.3,13.7,25,42,62,43c37,1,51.7,25.3,67,48
-				 c15.3,22.7,51,22.7,53,23v28.1H0V80z"
-            />
-          </g>
-        </svg>
-      </div>
-    </div>
-    <div section-scroll="2" class="wd_scroll_wrap">
-      <section class="features-area section">
-        <div id="features-js">
-          <div class="container">
+				 c15.3,22.7,51,22.7,53,23v28.1H0V80z" />
+			</g>
+		</svg>
+	</div>
+</div>
+<div section-scroll='2' class="wd_scroll_wrap">
+	<section class="features-area section">
+		<div id="features-js">
+			<div class="container">
             <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div
@@ -533,7 +337,7 @@
                     animation-name: fadeIn;
                   "
                 >
-                  <h2>Our Features</h2>
+                  <h2>Features</h2>
                 </div>
               </div>
             </div>
@@ -552,15 +356,13 @@
                         "
                       >
                         <div class="contents-l mr-b30">
-                          <h2>New Energy Infrastructure</h2>
+                          <h2>Shrink Rules</h2>
                           <p>
-                            Renewable energy infrastructure investment and the
-                            necessity <br />
-                            to reduce carbon emissions will be as important a
-                            focus <br />
-                            post the pandemic crisis as it was before.
+                            Each transfer transaction on the chain will be taxed by 10% <br />
+                            of which 3% will be put into the black hole in real time <br />
+                            anddestroyed automatically.
                           </p>
-                          <a href="#" class="btn1">read more</a>
+                          <!-- <a href="#" class="btn1">read more</a> -->
                         </div>
                       </div>
                       <div
@@ -592,14 +394,12 @@
 											<p>Unique platform for lending and investment with a safety fund
 												<br>and cooperation with world-wide arbitration.</p>
 											<a href="#" class="btn1">read more</a> -->
-                          <h2>New Energy Infrastructure</h2>
+                          <!-- <h2>Smart contract dividend</h2>
                           <p>
-                            Renewable energy infrastructure investment and the
-                            necessity <br />
-                            to reduce carbon emissions will be as important a
-                            focus <br />
-                            post the pandemic crisis as it was before.
-                          </p>
+                            3% of each transaction in the chain is allocated to all holders  <br />
+                            Each transaction on the chain will add 4% tax deduction to the <br />
+                            Mdex/Panckswap fund pool to provide liquidity..
+                          </p> -->
                         </div>
                       </div>
                     </li>
@@ -626,13 +426,14 @@
                           <!-- <h2>Exchange Money</h2>
 											<p>Exchange between all popular currencies with a couple of clicks.
 												<br>Instant send from one currency to another.</p> -->
-                          <h2>Low and Zero Carbon technology</h2>
+                          <h2>Smart contract dividend</h2>
                           <p>
-                            The LZC technology can bring carbon emissions closer
-                            to zero.
+                            3% of each transaction in the chain is allocated to all holders  <br />
+                            Each transaction on the chain will add 4% tax deduction to the <br />
+                            Mdex/Panckswap fund pool to provide liquidity..
                           </p>
 
-                          <a href="#" class="btn1">read more</a>
+                          <!-- <a href="#" class="btn1">read more</a> -->
                         </div>
                       </div>
                       <div
@@ -651,16 +452,7 @@
                         </div>
                       </div>
                       <div
-                        class="
-                          col-sm-6
-                          pd-0
-                          floatright
-                          mr-b30
-                          visible-xs
-                          wow
-                          fadeIn
-                          animated
-                        "
+                        class=" col-sm-6 pd-0 floatright mr-b30 visible-xs wow fadeIn animated "
                         data-wow-duration="1.6s"
                         style="
                           visibility: visible;
@@ -672,70 +464,76 @@
                           <!-- <h2>Exchange Money</h2>
 											<p>Exchange between all popular currencies with a couple of clicks.
 												<br>Instant send from one currency to another.</p> -->
-                          <h2>Low and Zero Carbon technology</h2>
+                          <!-- <h2>Low and Zero Carbon technology</h2>
                           <p>
                             The LZC technology can bring carbon emissions closer
                             to zero.
-                          </p>
-                          <a href="#" class="btn1">read more</a>
+                          </p> -->
+                          <!-- <a href="#" class="btn1">read more</a> -->
                         </div>
                       </div>
                     </li>
-                    <!-- <li>
-									<div class="col-sm-6 pd-0 hidden-xs wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
-										<div class="contents-l mr-b30">
-											<h2>Investment</h2>
-											<p>Improved system of borrower's verification. Providing
-												<br>verification services for other services.</p>
-											<a href="#" class="btn1">read more</a>
-										</div>
-									</div>
-									<div class="col-sm-6 pd-0 wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
-										<div class="imgs-l">
-											<figure><img src="images/features/3.png" alt="" /></figure>
-										</div>
-									</div>
-									<div class="col-sm-6 pd-0 visible-xs wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
-										<div class="contents-l mr-b30">
-											<h2>Investment</h2>
-											<p>Improved system of borrower's verification. Providing
-												<br>verification services for other services.</p>
-											<a href="#" class="btn1">read more</a>
-										</div>
-									</div>
-								</li>
-								<li class="rl">
-									<div class="col-sm-6 pd-0 floatright mr-b30 hidden-xs wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
-										<div class="contents-r">
-											<h2>Online Wallet</h2>
-											<p>Keep your money, exchange your money, invest your money, pay
-												<br>services and make purchases.</p>
-											<a href="#" class="btn1">read more</a>
-										</div>
-									</div>
-									<div class="col-sm-6 pd-0 wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
-										<div class="imgs-r">
-											<figure><img src="images/features/4.png" alt="" /></figure>
-										</div>
-									</div>
-									<div class="col-sm-6 pd-0 floatright mr-b30 visible-xs wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
-										<div class="contents-r">
-											<h2>Online Wallet</h2>
-											<p>Keep your money, exchange your money, invest your money, pay
-												<br>services and make purchases.</p>
-											<a href="#" class="btn1">read more</a>
-										</div>
-									</div>
-								</li> -->
+                    <li>
+                        <div class="col-sm-6 pd-0 hidden-xs wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
+                            <div class="contents-l mr-b30">
+                                <h2>Decentralization</h2>
+                                <p>The liquidity pool is permanently locked, and the ownership of
+                                    <br>the smart contract is transferred to the black hole address on
+									<br>the date of issuing.
+								</p>
+                                <!-- <a href="#" class="btn1">read more</a> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pd-0 wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
+                            <div class="imgs-l">
+                                <figure><img src="images/features/3.png" alt="" /></figure>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pd-0 visible-xs wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
+                            <div class="contents-l mr-b30">
+                                <!-- <h2>Decentralization</h2>
+                                <p>The liquidity pool is permanently locked, and the ownership of
+                                    <br>the smart contract is transferred to the black hole address on
+									<br>the date of issuing.
+								</p> -->
+                                <!-- <a href="#" class="btn1">read more</a> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rl">
+                        <div class="col-sm-6 pd-0 floatright mr-b30 hidden-xs wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
+                            <div class="contents-r">
+                                <h2>Community autonomy</h2>
+                                <p>The development of C-token community is completely
+                                    <br>driven by the self-built C-token communitywhich is 
+									<br>the core of C-token.
+								</p>
+                                <!-- <a href="#" class="btn1">read more</a> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pd-0 wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
+                            <div class="imgs-r">
+                                <figure><img src="images/features/4.png" alt="" /></figure>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pd-0 floatright mr-b30 visible-xs wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
+                            <!-- <div class="contents-r">
+                                <h2>Online Wallet</h2>
+                                <p>Keep your money, exchange your money, invest your money, pay
+                                    <br>services and make purchases.</p>
+                                <a href="#" class="btn1">read more</a>
+                            </div> -->
+                        </div>
+                    </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-    <!-- <div section-scroll='3' class="wd_scroll_wrap">
+		</div>
+	</section>
+</div>
+<div section-scroll='3' class="wd_scroll_wrap">
 	<section class="projects bg-img pd-t100 pd-b70 jarallax">
 		<div class="container">
 			<div class="row">
@@ -766,7 +564,7 @@
 					<div class="project-list wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
 						<div class="content">
 							<span class="icons"><img src="images/icons/8.png" alt=""></span>
-							<h3>Multicurrency <br>Coins</h3>
+							<h3>Multisig <br>Wallet</h3>
 						</div>
 					</div>
 				</div>
@@ -782,7 +580,7 @@
 					<div class="project-list wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
 						<div class="content">
 							<span class="icons"><img src="images/icons/10.png" alt=""></span>
-							<h3>Safety <br>Fund</h3>
+							<h3>Environmental <br>Protection</h3>
 						</div>
 					</div>
 				</div>
@@ -790,215 +588,123 @@
 					<div class="project-list wow  fadeIn animated" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-name: fadeIn;">
 						<div class="content">
 							<span class="icons"><img src="images/icons/11.png" alt=""></span>
-							<h3>Cooperation <br>With Arbitration</h3>
+							<h3>Cooperation <br>With Security company</h3>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-</div> -->
-    <div section-scroll="3" class="wd_scroll_wrap">
-      <section class="steps-area section">
-        <div id="steps-js">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-11 col-md-11 col-sm-12 col-xs-12">
-                <div class="steps-heading">
-                  <h2
-                    class="wow fadeIn animated"
-                    data-wow-duration="1.0s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 1s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    Roadmap of C
-                  </h2>
-                  <span
-                    >We prepared the main features and completed the R&D</span
-                  >
-                  <div class="right-con">
-                    <span>Scroll Down</span>
-                    <a data-scroll data-options='{ "speed": 100 }' href="#steps"
-                      ><i class="fa fa-angle-down"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="steps" class="steps-details bg-mg">
-        <div class="container">
-          <div class="row">
-            <div
-              class="
-                col-lg-10
-                col-md-10
-                col-sm-12
-                col-xs-12
-                col-md-offset-1
-                col-lg-offset-1
-              "
-            >
-              <div class="steps-cont">
-                <ul>
-                  <li class="l-con">
-                    <div
-                      class="cont wow fadeIn animated"
-                      data-wow-duration="1.0s"
-                      style="
-                        visibility: visible;
-                        animation-duration: 1s;
-                        animation-name: fadeIn;
-                      "
-                    >
-                      <h2>Phase one</h2>
-                      <p>
-                        Idea generation and partnership creation Our social
-                        media building <br />
-                        Token creation & token metrics & safe launch liquidity
-                      </p>
-                    </div>
-                    <span><i class="fa fa-users"></i></span>
-                  </li>
-                  <li class="r-con">
-                    <div
-                      class="cont wow fadeIn animated"
-                      data-wow-duration="1.3s"
-                      style="
-                        visibility: visible;
-                        animation-duration: 1.3s;
-                        animation-name: fadeIn;
-                      "
-                    >
-                      <h2>Phase two</h2>
-                      <p>
-                        C token launch and Mdex Listing New website/green
-                        <br />releasing Dapp launching
-                      </p>
-                    </div>
-                    <span><i class="fa fa-check-square-o"></i></span>
-                  </li>
-                  <li class="l-con">
-                    <div
-                      class="cont wow fadeIn animated"
-                      data-wow-duration="1.6s"
-                      style="
-                        visibility: visible;
-                        animation-duration: 1.6s;
-                        animation-name: fadeIn;
-                      "
-                    >
-                      <h2>Phase three</h2>
-                      <p>
-                        Strategic marketing<br />
-                        Community building <br />
-                        Smart contract auditing <br />
-                        Coin Market Cap listing <br />
-                        Funds raising for registration and <br />
-                        listing on mainstream trading platforms
-                      </p>
-                    </div>
-                    <span><i class="fa fa-edit"></i></span>
-                    <div class="mid-icons"></div>
-                  </li>
-                  <li class="r-con">
-                    <div
-                      class="cont wow fadeIn animated"
-                      data-wow-duration="1.9s"
-                      style="
-                        visibility: visible;
-                        animation-duration: 1.9s;
-                        animation-name: fadeIn;
-                      "
-                    >
-                      <h2>Phase four</h2>
-                      <p>
-                        Update Dapp with new functions <br />
-                        Launch the branch of C Token <br />
-                        Establish a partnership with other projects
-                      </p>
-                    </div>
-                    <span><i class="fa fa-university"></i></span>
-                  </li>
-                  <li class="l-con">
-                    <div
-                      class="cont wow fadeIn animated"
-                      data-wow-duration="2.1s"
-                      style="
-                        visibility: visible;
-                        animation-duration: 2.1s;
-                        animation-name: fadeIn;
-                      "
-                    >
-                      <h2>Phase five</h2>
-                      <p>
-                        Implement features <br />
-                        Launch decentralized payment system <br />
-                        List C swap
-                      </p>
-                    </div>
-                    <span><i class="fa fa-bell"></i></span>
-                  </li>
-                  <!-- <li class="r-con">
-                        <div class="cont wow  fadeIn animated" data-wow-duration="2.4s" style="visibility: visible; animation-duration:2.4s; animation-name: fadeIn;">
-                            <h2>06. Receiving Funds</h2>
-                            <p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
-                                <br>nulla. Cras sodales eu nibh vel scelerisque. </p>
-                        </div>
-                        <span><i class="fa fa-paw"></i></span>
-                    </li> -->
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="sud">
-        <svg
-          version="1.1"
-          id="Layer_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          viewBox="0 0 1920 181.1"
-          style="enable-background: new 0 0 1920 181.1"
-          xml:space="preserve"
-        >
-          <style type="text/css">
-            .st0 {
-              fill-rule: evenodd;
-              clip-rule: evenodd;
-              fill: #10122d;
-            }
-          </style>
-          <g>
-            <path
-              class="st0"
-              d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
-            c20.3,9.7,68,40.3,134-12c24-11,59-16.3,104,2c21,7.3,85,27.7,117-14c24-30.7,62.7-55,141-12c26,10.3,72,14.7,110-14
-            c37.7-19,89.7-29,122,53c23,32.7,47.7,66.3,97,26c24-22.7,51-78.3,137-38c0,0,28.3,15.7,52,15c23.7-0.7,50.7,4.3,76,41
-            c19.7,19.7,71,36.7,121-2c0,0,22.3-16,55-12c0,0,32.7,6.7,56-71c23.3-76,79-92,122-29c9.3,13.7,25,42,62,43c37,1,51.7,25.3,67,48
-            c15.3,22.7,51,22.7,53,23v28.1H0V80z"
-            />
-          </g>
-        </svg>
-      </div>
-    </div>
-    <!-- <div section-scroll='5' class="wd_scroll_wrap"> -->
-    <!-- <section class="video-area section">
+</div>
+<div section-scroll='4' class="wd_scroll_wrap">
+	<!-- <section class="steps-area section">
+		<div id="steps-js">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-11 col-md-11 col-sm-12 col-xs-12">
+						<div class="steps-heading">
+							<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Few Steps For a Loan</h2>
+							<div class="right-con">
+								<span>Scroll Down</span>
+								<a data-scroll data-options='{ "speed": 100 }' href="#steps"><i class="fa fa-angle-down"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="steps" class="steps-details bg-mg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-md-offset-1 col-lg-offset-1">
+					<div class="steps-cont">
+						<ul>
+							<li class="l-con">
+								<div class="cont wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
+									<h2>01. Registration On The Platform</h2>
+									<p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+										<br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+								</div>
+								<span><i class="fa fa-users"></i></span>
+							</li>
+							<li class="r-con">
+								<div class="cont wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
+									<h2>02. Passing Verification</h2>
+									<p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+										<br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+								</div>
+								<span><i class="fa fa-check-square-o"></i></span>
+							</li>
+							<li class="l-con">
+								<div class="cont wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
+									<h2>03. Creating An Application For a Loan</h2>
+									<p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+										<br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+								</div>
+								<span><i class="fa fa-edit "></i></span>
+								<div class="mid-icons"></div>
+							</li>
+							<li class="r-con">
+								<div class="cont wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
+									<h2>04. Financing a Loan</h2>
+									<p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+										<br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+								</div>
+								<span><i class="fa fa-university"></i></span>
+							</li>
+							<li class="l-con">
+								<div class="cont wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
+									<h2>05. Activating a Loan</h2>
+									<p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+										<br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+								</div>
+								<span><i class="fa fa-bell"></i></span>
+							</li>
+							<li class="r-con">
+								<div class="cont wow  fadeIn animated" data-wow-duration="2.4s" style="visibility: visible; animation-duration:2.4s; animation-name: fadeIn;">
+									<h2>06. Receiving Funds</h2>
+									<p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+										<br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+								</div>
+								<span><i class="fa fa-paw"></i></span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="sud">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
+			<style type="text/css">
+				.st0 {
+					fill-rule: evenodd;
+					clip-rule: evenodd;
+					fill: #10122d;
+				}
+			</style>
+			<g>
+				<path class="st0" d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
+				 c20.3,9.7,68,40.3,134-12c24-11,59-16.3,104,2c21,7.3,85,27.7,117-14c24-30.7,62.7-55,141-12c26,10.3,72,14.7,110-14
+				 c37.7-19,89.7-29,122,53c23,32.7,47.7,66.3,97,26c24-22.7,51-78.3,137-38c0,0,28.3,15.7,52,15c23.7-0.7,50.7,4.3,76,41
+				 c19.7,19.7,71,36.7,121-2c0,0,22.3-16,55-12c0,0,32.7,6.7,56-71c23.3-76,79-92,122-29c9.3,13.7,25,42,62,43c37,1,51.7,25.3,67,48
+				 c15.3,22.7,51,22.7,53,23v28.1H0V80z" />
+			</g>
+		</svg>
+	</div> -->
+</div>
+<div section-scroll='5' class="wd_scroll_wrap">
+	<section class="video-area section">
 		<div id="video-js">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div class="videos-heding">
-							<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Development of Bit Money Platform<br>(Road Map)</h2>
+							<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Road Map of C Token</h2>
 							<div class="videos-box">
+								<!---<video id="my-video" class="video-js" controls preload="auto" width="770" height="400" poster="images/video/1.png" data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://youtu.be/Gc2en3nHxA4"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
+								</video>--->
 							</div>
 						</div>
 					</div>
@@ -1014,7 +720,7 @@
 						<div class="deslidt">
 							<ul>
 								<li>
-									<span class="years"><span class="con">2016</span></span>
+									<span class="years"><span class="con">2021.Q1</span></span>
 									<div class="serials">
 										<span class="cre"></span>
 										<div class="col-sm-6 col-xs-12 left-con wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
@@ -1026,7 +732,7 @@
 													<div class="dright">
 														<div class="content">
 															<h3>Idea</h3>
-															<p>(September - October)</p>
+															<p>(01.01 - 02.10)</p>
 														</div>
 													</div>
 												</div>
@@ -1038,7 +744,7 @@
 													<div class="dleft">
 														<div class="content">
 															<h3>Market Research</h3>
-															<p>(October - December)</p>
+															<p>(02.20 - 03.20)</p>
 														</div>
 													</div>
 													<div class="dright">
@@ -1050,7 +756,7 @@
 									</div>
 								</li>
 								<li>
-									<span class="years"><span class="con">2017</span></span>
+									<span class="years"><span class="con">2021 Q2-Q3</span></span>
 									<div class="serials">
 										<span class="cre"></span>
 										<div class="col-sm-6 col-xs-12 left-con wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
@@ -1061,8 +767,8 @@
 													</div>
 													<div class="dright">
 														<div class="content">
-															<p>(1Q 2017)</p>
-															<h3>Formation of foundersteam Business plan</h3>
+															<p>(2021.05.01)</p>
+															<h3>Start of development</h3>
 														</div>
 													</div>
 												</div>
@@ -1073,8 +779,8 @@
 												<div class="dbox">
 													<div class="dleft">
 														<div class="content">
-															<p>(2Q 2017)</p>
-															<h3>Start of Platform<br> Development</h3>
+															<p>(2021.05.25)</p>
+															<h3>Lunch on mdex<br></h3>
 														</div>
 													</div>
 													<div class="dright">
@@ -1094,8 +800,8 @@
 													</div>
 													<div class="dright">
 														<div class="content">
-															<p>(3Q 2017)</p>
-															<h3>WhitePaper<br> Landing page</h3>
+															<p>(2021.06)</p>
+															<h3>Rebuild offical  <br> website & WhitePaper</h3>
 														</div>
 													</div>
 												</div>
@@ -1106,8 +812,8 @@
 												<div class="dbox">
 													<div class="dleft">
 														<div class="content">
-															<p>(4Q 2017)</p>
-															<h3>Pre-Sale<br>Launch Platform<br>in beta test mode</h3>
+															<p>(2021.08)</p>
+															<h3>Audit Report<br> Cross Blockchain</h3>
 														</div>
 													</div>
 													<div class="dright">
@@ -1119,7 +825,7 @@
 									</div>
 								</li>
 								<li>
-									<span class="years"><span class="con">2018</span></span>
+									<span class="years"><span class="con">2022</span></span>
 									<div class="serials">
 										<span class="cre"></span>
 										<div class="col-sm-6 col-xs-12 left-con  wow  fadeIn animated" data-wow-duration="2.3s" style="visibility: visible; animation-duration: 2.3s; animation-name: fadeIn;">
@@ -1130,8 +836,8 @@
 													</div>
 													<div class="dright">
 														<div class="content">
-															<p>(1Q 2018)</p>
-															<h3>ICO Launch<br>Identification<br>Systemsand work<br>with API Partners</h3>
+															<p>(2022.Q1)</p>
+															<h3>Launch  <br>Carbon Forest<br>APP</h3>
 														</div>
 													</div>
 												</div>
@@ -1142,8 +848,8 @@
 												<div class="dbox">
 													<div class="dleft">
 														<div class="content">
-															<p>(2Q 2018)</p>
-															<h3>Launch the<br>Platform in<br>Full mode</h3>
+															<p>(2022.Q2)</p>
+															<h3>Photovoltaic<br>power plant</h3>
 														</div>
 													</div>
 													<div class="dright">
@@ -1162,8 +868,8 @@
 													</div>
 													<div class="dright">
 														<div class="content">
-															<p>(4Q 2018)</p>
-															<h3>Establishing<br>Representative<br>Office</h3>
+															<p>(2022.Q2)</p>
+															<h3>Land<br>Huobi&<br>Binance</h3>
 														</div>
 													</div>
 												</div>
@@ -1176,8 +882,8 @@
 				</div>
 			</div>
 	</div>
-	</section> -->
-    <!-- <div class="sud">
+	</section>
+	<div class="sud">
 		<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
 			<style type="text/css">
 				.st0 {
@@ -1194,198 +900,118 @@
 					c15.3,22.7,51,22.7,53,23v28.1H0V80z" />
 			</g>
 		</svg>
-	</div> -->
-    <!-- </div> -->
-    <!-- </div> -->
-    <div section-scroll="6" class="wd_scroll_wrap">
-      <section class="tokens-area section">
-        <div id="token-js">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="section-heading2">
-                  <h2
-                    class="wow fadeIn animated"
-                    data-wow-duration="1.0s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 1s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    Video
-                  </h2>
-                </div>
-              </div>
-              <div
-                class="
-                  col-lg-10
-                  col-md-9
-                  col-sm-12
-                  col-xs-12
-                  col-lg-offset-1
-                  col-md-offset-1
-                "
-              >
-                <div
-                  class="
-                    col-lg-6 col-md-6 col-sm-6 col-xs-12
-                    text-right
-                    wow
-                    fadeIn
-                    animated
-                  "
-                  data-wow-duration="1.3s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1.3s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  <div class="tokens mr-l50">
-                    <div class="token-name">Video</div>
-                    <div class="token-body">
-                      <!-- <p>Target – to Raise USD 500,000</p>
-                      <button class="left-btn">Price 1 BIT – $0.25</button>
-                      <span class="easypiechart skill-circle">
-                        <span class="percent head-font">20</span>
-                        <br />
-                        <span class="con">Special Bonus</span>
-                      </span> -->
-                      <!-- <video
-                        src="//27366765.s21v.faiusr.com/58/ABUIABA6GAAgytXchgYoq8e48AE.mp4"
-                      ></video> -->
-                      <video
-                        width="320"
-                        height="240"
-                        src="https://v26-web.douyinvod.com/16b1f678f0b77034ff8a656573fdbe75/61208515/video/tos/cn/tos-cn-ve-15/cc88766118504339af6e484e24df2b3b/?a=6383&br=2480&bt=2480&cd=0%7C0%7C0&ch=26&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=0J.120FFckag3&l=021629517481289fdbddc0100fff0030a0b4148000000135cac28&lr=all&mime_type=video_mp4&net=0&pl=0&qs=0&rc=ank6eDQ2cGQ8NjMzNGkzM0ApNWZkZmU1OztlN2c4Ojk8O2cxaWducjZwMDNgLS1kLTBzczM1NTExLjE0XjMxMmA2MjI6Yw%3D%3D&vl=&vr="
-                        controls
-                        autoplay
-                      ></video>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="
-                    col-lg-6 col-md-6 col-sm-6 col-xs-12
-                    text-right
-                    wow
-                    fadeIn
-                    animated
-                  "
-                  data-wow-duration="1.6s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1.6s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  <div class="tokens mr-r50">
-                    <div class="token-name">C token</div>
-                    <div class="token-body">
-                      <p>
-                        C token is launched by a group of overseas enthusiasts
-                        devoted to environmental protection. It was released
-                        anonymously online on May 25, 2021.
-                      </p>
-
-                      <!-- <div class="prices">
-                        <button class="right-btn">May 25, 2021.</button>
-                      </div> -->
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"
-                >
-                  <p
-                    class="token-con wow fadeIn animated"
-                    data-wow-duration="1.9s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 1.9s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    C token is launched by a group of overseas enthusiasts
-                    devoted to environmental protection.
-                    <span
-                      >It was released anonymously online on May 25, 2021.</span
-                    >
-                    <!-- The sale of tokens It is a long established fact that a
-                    reader will be distracted by the<span>
-                      readable content of a page when looking at its
-                      layout.</span
-                    >There are many variations of passages of Lorem Ipsum
-                    available. There are many variations of passages. -->
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="token-details section bg-img">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="section-heading">
-                <h2
-                  class="wow fadeIn animated"
-                  data-wow-duration="1.0s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  Our Achievements
-                </h2>
-              </div>
-            </div>
-            <div
-              class="
-                col-lg-8
-                col-md-8
-                col-sm-12
-                col-xs-12
-                col-lg-offset-2
-                col-md-offset-2
-              "
-            >
-              <div
-                class="tokes-chart-slider wow animate fadeIn"
-                data-wow-duration="1s"
-              >
-                <div class="cart-list">
-                  <div class="chart col-sm-6">
-                    <div id="e_chart_3" class="" style="height: 400px"></div>
-                    <div class="imgs">
-                      <img src="images/icons/l.png" alt="" />
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="label-chatrs">
-                      <div class="lsits">
-                        <span class="clabels-text">559 trillion</span>
-                        <p>Quantity destroyed</p>
-                      </div>
-                      <div class="lsits">
-                        <span class="clabels-text">64793</span>
-                        <p>Holders</p>
-                      </div>
-                      <div class="lsits">
-                        <span class="clabels-text">2000+</span>
-                        <p>Members</p>
-                      </div>
-                      <div class="lsits">
-                        <span class="clabels-text">100000+</span>
-                        <p>Transfers</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- <div class="cart-list">
+	</div>
+</div>
+</div>
+<div section-scroll='6' class="wd_scroll_wrap">
+	<!-- <section class="tokens-area section">
+		<div id="token-js">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="section-heading2">
+							<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Rounds of Sale of Tokens</h2>
+						</div>
+					</div>
+					<div class="col-lg-10 col-md-9 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-right wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
+							<div class="tokens mr-l50">
+								<div class="token-name">Pre-sale</div>
+								<div class="token-body">
+									<p>Target – to Raise USD 500,000</p>
+									<button class="left-btn">Price 1 BIT – $0.25</button>
+									<span class="easypiechart skill-circle">
+							 <span class="percent head-font">20</span>
+									<br>
+									<span class="con">Special Bonus</span>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-right wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
+							<div class="tokens mr-r50">
+								<div class="token-name">ICO</div>
+								<div class="token-body">
+									<p>Target – to Raise USD 20,000,000</p>
+									<button class="right-btn">Price 1 BIT - $1.00</button>
+									<div class="prices">
+										<h3 class="f-20">Bonus for ICO :</h3>
+										<table>
+											<thead>
+												<tr>
+													<th>Time</th>
+													<th>bonus</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>1day</td>
+													<td>35%</td>
+												</tr>
+												<tr>
+													<td>2 - 4 Days </td>
+													<td>20%</td>
+												</tr>
+												<tr>
+													<td>5 - 13 Days</td>
+													<td>10%</td>
+												</tr>
+												<tr>
+													<td>14 - 31 Day</td>
+													<td>0%</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+							<p class="token-con wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">The sale of tokens It is a long established fact that a reader will be distracted by the<span> readable content of a page when looking at its layout.</span>There are many variations of passages of Lorem Ipsum available. There are many variations of passages. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<section class="token-details section bg-img">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="section-heading">
+						<!-- <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Distribution of Tokens</h2> -->
+                        <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Our Achievements</h2>
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+					<div class="tokes-chart-slider wow animate fadeIn" data-wow-duration="1s">
+						<div class="cart-list">
+							<div class="chart col-sm-6">
+								<div id="e_chart_3" class="" style="height:400px;"></div>
+								<!-- <div class="imgs"><img src="images/icons/9.png" alt="" /></div> -->
+							</div>
+							<div class="col-sm-6">
+								<div class="label-chatrs">
+									<div class="lsits">
+										<span class="clabels-text">559 trillion</span>
+										<p>Quantity destroyed</p>
+									</div>
+									<div class="lsits">
+										<span class="clabels-text">67793</span>
+										<p>Holders</p>
+									</div>
+									<div class="lsits">
+										<span class="clabels-text">2000+</span>
+										<p>Members</p>
+									</div>
+									<div class="lsits">
+										<span class="clabels-text">100000+</span>
+										<p>Transfers</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="cart-list">
 							<div class="chart col-sm-6">
 								<div id="e_chart_2" class="" style="height:400px;"></div>
 								<div class="imgs"><img src="images/icons/l.png" alt="" /></div>
@@ -1393,1347 +1019,718 @@
 							<div class="col-sm-6">
 								<div class="label-chatrs">
 									<div class="lsits">
-										<span class="clabels-text">85%</span>
-										<p>For participants of Pre-Sale and ICO</p>
+										<span class="clabels-text">559 trillion</span>
+										<p>Quantity destroyed</p>
 									</div>
 									<div class="lsits">
-										<span class="clabels-text">8%</span>
-										<p>Reserved for the team.</p>
+										<span class="clabels-text">64793</span>
+										<p>Holders</p>
 									</div>
 									<div class="lsits">
-										<span class="clabels-text">4%</span>
-										<p>Reserved for the consultants.</p>
+										<span class="clabels-text">2000+</span>
+										<p>Members</p>
 									</div>
 									<div class="lsits">
-										<span class="clabels-text">3%</span>
-										<p>Bounty campaign</p>
+										<span class="clabels-text">100000+</span>
+										<p>Transfers</p>
 									</div>
 								</div>
 							</div>
 						</div> -->
-              </div>
-              <!-- <div class="contents text-center">
-                <h2
-                  class="wow fadeIn animated"
-                  data-wow-duration="1.3s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1.3s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  The issued tokens will be distributed as follows:
-                </h2>
-                <a
-                  href="#"
-                  class="btn1 wow fadeIn animated"
-                  data-wow-duration="1.6s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1.6s;
-                    animation-name: fadeIn;
-                  "
-                  >Download WhitePaper</a
-                >
-              </div> -->
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="sud">
-        <svg
-          version="1.1"
-          id="Layer_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          viewBox="0 0 1920 181.1"
-          style="enable-background: new 0 0 1920 181.1"
-          xml:space="preserve"
-        >
-          <style type="text/css">
-            .st0 {
-              fill-rule: evenodd;
-              clip-rule: evenodd;
-              fill: #10122d;
-            }
-          </style>
-          <g>
-            <path
-              class="st0"
-              d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
+					</div>
+					<!-- <div class="contents text-center">
+						<h2 class="wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">The issued tokens will be distributed as follows:</h2>
+						<a href="#" class="btn1 wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">Download WhitePaper</a>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="sud">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
+			<style type="text/css">
+				.st0 {
+					fill-rule: evenodd;
+					clip-rule: evenodd;
+					fill: #10122d;
+				}
+			</style>
+			<g>
+				<path class="st0" d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
 				 c20.3,9.7,68,40.3,134-12c24-11,59-16.3,104,2c21,7.3,85,27.7,117-14c24-30.7,62.7-55,141-12c26,10.3,72,14.7,110-14
 				 c37.7-19,89.7-29,122,53c23,32.7,47.7,66.3,97,26c24-22.7,51-78.3,137-38c0,0,28.3,15.7,52,15c23.7-0.7,50.7,4.3,76,41
 				 c19.7,19.7,71,36.7,121-2c0,0,22.3-16,55-12c0,0,32.7,6.7,56-71c23.3-76,79-92,122-29c9.3,13.7,25,42,62,43c37,1,51.7,25.3,67,48
-				 c15.3,22.7,51,22.7,53,23v28.1H0V80z"
-            />
-          </g>
-        </svg>
-      </div>
-      <section class="team-area pd-t100 pd-b50">
-        <div id="particles-team">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="section-heading2">
-                  <h2
-                    class="wow fadeIn animated"
-                    data-wow-duration="1.0s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 1s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    Tokenomic
-                  </h2>
-                  <span>Total Supply of $C: 1,000,000,000,000,000 </span>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div
-                class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn animated"
-                data-wow-duration="1.3s"
-                style="
-                  visibility: visible;
-                  animation-duration: 1.3s;
-                  animation-name: fadeIn;
-                "
-              >
-                <div class="team-list">
-                  <div class="conte">
-                    <div class="dbox">
-                      <div class="dleft">
-                        <img src="images/team/1.png" alt="" />
-                      </div>
-                      <div class="dright">
-                        <div class="content">
-                          <h3>Decentralization</h3>
-                          <!-- <span>Can I trade C token at an exchange ?</span> -->
-                          <!-- <ul>
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				 c15.3,22.7,51,22.7,53,23v28.1H0V80z" />
+			</g>
+		</svg>
+	</div>
+	<!-- <section class="team-area pd-t100 pd-b50">
+		<div id="particles-team">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="section-heading2">
+							<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Core Team</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
+						<div class="team-list">
+							<div class="conte">
+								<div class="dbox">
+									<div class="dleft">
+										<img src="images/team/1.png" alt="" />
+									</div>
+									<div class="dright">
+										<div class="content">
+											<h3>Ajay Suryavanshi</h3>
+											<span>(Co-Founder & CEO)</span>
+											<ul>
+												<li><a href="#"><i class="fa fa-github"></i></a></li>
 												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul> -->
-                        </div>
-                      </div>
-                    </div>
-                    <div class="con">
-                      <p>
-                        The liquidity pool is permanently locked, and the
-                        ownership of the smart contract is transferred to the
-                        black hole address on the date of issue. The contract on
-                        heco smartchain is
-                        0xFeD613CdD4182b73A032fe1f03Bd7872465010F8
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn animated"
-                data-wow-duration="1.6s"
-                style="
-                  visibility: visible;
-                  animation-duration: 1.6s;
-                  animation-name: fadeIn;
-                "
-              >
-                <div class="team-list">
-                  <div class="conte">
-                    <div class="dbox">
-                      <div class="dleft">
-                        <img src="images/team/2.png" alt="" />
-                      </div>
-                      <div class="dright">
-                        <div class="content">
-                          <h3>Shrink rules</h3>
-                          <!-- <span> Is C token secure ?</span> -->
-                          <!-- <ul>
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="con">
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
+						<div class="team-list">
+							<div class="conte">
+								<div class="dbox">
+									<div class="dleft">
+										<img src="images/team/2.png" alt="" />
+									</div>
+									<div class="dright">
+										<div class="content">
+											<h3>Jeniffer Doe</h3>
+											<span>(Co-Founder & CEO)</span>
+											<ul>
+												<li><a href="#"><i class="fa fa-github"></i></a></li>
 												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul> -->
-                        </div>
-                      </div>
-                    </div>
-                    <div class="con">
-                      <p>
-                        Each transfer transaction on the chain will be taxed by
-                        10%, of which 3% will be put into the black hole in real
-                        time and destroyed automatically.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn animated"
-                data-wow-duration="1.9s"
-                style="
-                  visibility: visible;
-                  animation-duration: 1.9s;
-                  animation-name: fadeIn;
-                "
-              >
-                <div class="team-list">
-                  <div class="conte">
-                    <div class="dbox">
-                      <div class="dleft">
-                        <img src="images/team/3.png" alt="" />
-                      </div>
-                      <div class="dright">
-                        <div class="content">
-                          <h3>Smart contract dividend</h3>
-                          <!-- <span> What can I do ?</span> -->
-                          <!-- <ul>
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="con">
+									<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
+						<div class="team-list">
+							<div class="conte">
+								<div class="dbox">
+									<div class="dleft">
+										<img src="images/team/3.png" alt="" />
+									</div>
+									<div class="dright">
+										<div class="content">
+											<h3>Akshay Handge</h3>
+											<span>(Co-Founder & CEO)</span>
+											<ul>
+												<li><a href="#"><i class="fa fa-github"></i></a></li>
 												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul> -->
-                        </div>
-                      </div>
-                    </div>
-                    <div class="con">
-                      <p>
-                        3% of each transaction in the chain is allocated to all
-                        holders. Each transaction on the chain will add 4% tax
-                        deduction to the mdex fund pool to provide liquidity.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn animated"
-                data-wow-duration="2.1s"
-                style="
-                  visibility: visible;
-                  animation-duration: 2.1s;
-                  animation-name: fadeIn;
-                "
-              >
-                <div class="team-list">
-                  <div class="conte">
-                    <div class="dbox">
-                      <div class="dleft">
-                        <img src="images/team/4.png" alt="" />
-                      </div>
-                      <div class="dright">
-                        <div class="content">
-                          <h3>Community autonomy</h3>
-                          <!-- <span>(Co-Founder & CEO)</span> -->
-                          <!-- <ul>
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="con">
+									<p>here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
+						<div class="team-list">
+							<div class="conte">
+								<div class="dbox">
+									<div class="dleft">
+										<img src="images/team/4.png" alt="" />
+									</div>
+									<div class="dright">
+										<div class="content">
+											<h3>Maria Willium</h3>
+											<span>(Co-Founder & CEO)</span>
+											<ul>
+												<li><a href="#"><i class="fa fa-github"></i></a></li>
 												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul> -->
-                        </div>
-                      </div>
-                    </div>
-                    <div class="con">
-                      <p>
-                        The development of C-token community is completely
-                        driven by the self-built C-token community, which is the
-                        core of C-token.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- <section class="projects bg-img pd-t100 pd-b70 jarallax">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-					<div class="section-heading">
-						<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">There are 4 simple functions about C token</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="project-list wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
-						<div class="content">
-							<span class="icons"><img src="images/icons/6.png" alt=""></span>
-							<h3>1. Reflection & LP acquisition& combustion. 10% fee is levied on each transaction, and divided into three parts.</h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="project-list wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
-						<div class="content">
-							<span class="icons"><img src="images/icons/7.png" alt=""></span>
-							<h3>2. The 3% fee is redistributed to all existing holders, enabling a new model of mining.</h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="project-list wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
-						<div class="content">
-							<span class="icons"><img src="images/icons/8.png" alt=""></span>
-							<h3>The 4% fee is automatically repurchased and injected into the bottom pool in order to strengthen the depth of its LP pool, which has been permanently locked and cannot be withdrawn; </h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="project-list wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
-						<div class="content">
-							<span class="icons"><img src="images/icons/9.png" alt=""></span>
-							<h3>4. The 3% fee goes into the black hole. In a nutshell, the more frequently the C token exchanges, the more valuable it is.</h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="project-list wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
-						<div class="content">
-							<span class="icons"><img src="images/icons/10.png" alt=""></span>
-							<h3>Safety <br>Fund</h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="project-list wow  fadeIn animated" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-name: fadeIn;">
-						<div class="content">
-							<span class="icons"><img src="images/icons/11.png" alt=""></span>
-							<h3>Cooperation <br>With Arbitration</h3>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="con">
+									<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. There are many variations of passages.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section> -->
+	<!-- <section class="team2-area pd-t100 pd-b50 bg-img">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="section-heading">
+						<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Our Advisors</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
+					<div class="team-list">
+						<div class="conte">
+							<div class="dbox">
+								<div class="dleft">
+									<img src="images/team/5.png" alt="" />
+								</div>
+								<div class="dright">
+									<div class="content">
+										<h3>Mason Liam</h3>
+										<span>(Co-Founder & CEO)</span>
+										<ul>
+											<li><a href="#"><i class="fa fa-github"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="con">
+								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
+					<div class="team-list">
+						<div class="conte">
+							<div class="dbox">
+								<div class="dleft">
+									<img src="images/team/6.png" alt="" />
+								</div>
+								<div class="dright">
+									<div class="content">
+										<h3>Jammy Doe</h3>
+										<span>(Co-Founder & CEO)</span>
+										<ul>
+											<li><a href="#"><i class="fa fa-github"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="con">
+								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
+					<div class="team-list">
+						<div class="conte">
+							<div class="dbox">
+								<div class="dleft">
+									<img src="images/team/7.png" alt="" />
+								</div>
+								<div class="dright">
+									<div class="content">
+										<h3>Daniel Matthew</h3>
+										<span>(Co-Founder & CEO)</span>
+										<ul>
+											<li><a href="#"><i class="fa fa-github"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="con">
+								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
+					<div class="team-list">
+						<div class="conte">
+							<div class="dbox">
+								<div class="dleft">
+									<img src="images/team/8.png" alt="" />
+								</div>
+								<div class="dright">
+									<div class="content">
+										<h3>Henry Jack</h3>
+										<span>(Co-Founder & CEO)</span>
+										<ul>
+											<li><a href="#"><i class="fa fa-github"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="con">
+								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<div class="sud">
+		<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
+			<style type="text/css">
+				.st0 {
+					fill-rule: evenodd;
+					clip-rule: evenodd;
+					fill: #1f58b1;
+				}
+			</style>
+			<g>
+				<path class="st0" d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
+				 c20.3,9.7,68,40.3,134-12c24-11,59-16.3,104,2c21,7.3,85,27.7,117-14c24-30.7,62.7-55,141-12c26,10.3,72,14.7,110-14
+				 c37.7-19,89.7-29,122,53c23,32.7,47.7,66.3,97,26c24-22.7,51-78.3,137-38c0,0,28.3,15.7,52,15c23.7-0.7,50.7,4.3,76,41
+				 c19.7,19.7,71,36.7,121-2c0,0,22.3-16,55-12c0,0,32.7,6.7,56-71c23.3-76,79-92,122-29c9.3,13.7,25,42,62,43c37,1,51.7,25.3,67,48
+				 c15.3,22.7,51,22.7,53,23v28.1H0V80z" />
+			</g>
+		</svg>
+	</div>
+</div>
+<div section-scroll='7' class="wd_scroll_wrap">
+	<section class="blog-area section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="section-heading2">
+						<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Latest News</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="blog-slider">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="blog wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
+							<figure><img src="images/blog/1.jpg" alt="" /></figure>
+							<div class="content">
+								<span><i class="fa  fa-calendar-o"></i>July 17, 2021</span>
+								<h4><a href="#">Announcement about WBF list C</a></h4>
+								<p>WBF Exchange will open C/USDT trading pair in  Open sector detailed as follows:</p>
+								<a href="https://wbfex.zendesk.com/hc/zh-cn/articles/4403703883033-%E5%85%B3%E4%BA%8EWBF%E4%B8%8A%E7%BA%BFC%E7%9A%84%E5%85%AC%E5%91%8A" class="blog-btn">read more <i class="fa  fa-arrow-circle-o-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="blog wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
+							<figure><img src="images/blog/2.jpg" alt="" /></figure>
+							<div class="content">
+								<span><i class="fa  fa-calendar-o"></i>Aug 04, 2021</span>
+								<h4><a href="#">Completed security audit report</a></h4>
+								<p> The C contract passed all audit items, The overall audit result is Pass<br></p>
+								<a href="https://c-token.oss-cn-beijing.aliyuncs.com/Smart%20contract%20security%20audit%20report%20-%20C.pdf" class="blog-btn">read more <i class="fa  fa-arrow-circle-o-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="blog wow  fadeIn animated" data-wow-duration="1.8s" style="visibility: visible; animation-duration: 1.8s; animation-name: fadeIn;">
+							<figure><img src="images/blog/3.jpg" alt="" /></figure>
+							<div class="content">
+								<span><i class="fa  fa-calendar-o"></i>Aug 10, 2021</span>
+								<h4><a href="#">Cross chain on poly</a></h4>
+								<p>Launch on Heco Chain as well as Binance Smart Chain (BSC) and its token</p>
+								<a href="https://medium.com/@Ctoke/c-token-x-poly-network-548d6d6566bc" class="blog-btn">read more <i class="fa  fa-arrow-circle-o-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="blog">
+							<figure><img src="images/blog/1.jpg" alt="" /></figure>
+							<div class="content">
+								<span><i class="fa  fa-calendar-o"></i>January 29, 2018</span>
+								<h4><a href="#">Report about the team's trip to the road show</a></h4>
+								<p>Nam nec tellus a odio tincidunt auctor are odio sed non mauris. This is Photoshop's ern of Lorem Ipsum Proin gravida.</p>
+								<a href="#" class="blog-btn">read more <i class="fa  fa-arrow-circle-o-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="blog">
+							<figure><img src="images/blog/2.jpg" alt="" /></figure>
+							<div class="content">
+								<span><i class="fa  fa-calendar-o"></i>January 29, 2018</span>
+								<h4><a href="#">Report about the team's trip to the road show</a></h4>
+								<p>Nam nec tellus a odio tincidunt auctor are odio sed non mauris. This is Photoshop's ern of Lorem Ipsum Proin gravida.</p>
+								<a href="#" class="blog-btn">read more <i class="fa  fa-arrow-circle-o-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="blog">
+							<figure><img src="images/blog/3.jpg" alt="" /></figure>
+							<div class="content">
+								<span><i class="fa  fa-calendar-o"></i>January 29, 2018</span>
+								<h4><a href="#">Report about the team's trip to the road show</a></h4>
+								<p>Nam nec tellus a odio tincidunt auctor are odio sed non mauris. This is Photoshop's ern of Lorem Ipsum Proin gravida.</p>
+								<a href="#" class="blog-btn">read more <i class="fa  fa-arrow-circle-o-right"></i></a>
+							</div>
+						</div>
+					</div> -->
+				</div>
+				<!-- <div class="view-btn">
+					<a href="#">All News</a>
+				</div> -->
+			</div>
+		</div>
+	</section>
+	<section class="blog-area section contt_area faq_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="section-heading2">
+						<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Frequently Asked Question</h2>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wow  fadeIn animated" data-wow-duration="1.5s">
+					<div class="team2-area btc_right_contt">
+						 <div class="team-list">
+							<div class="btc_faq_main_wrapper">
+								<div class="accordionFifteen">
+						<div class="panel-group" id="accordionFifteenLeft" role="tablist">
+							<div class="panel panel-default sidebar_pannel">
+								<div class="panel-heading desktop">
+									<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftone" aria-expanded="false">- Can I trade C token now ?</a>
+											</h4>
+								</div>
+								<div id="collapseFifteenLeftone" class="panel-collapse collapse in" aria-expanded="true" role="tabpanel">
+									<div class="panel-body">
+										<div class="panel_cont">
+											<p>Yes, C token is already tradable on 
+												<a href="https://ht.mdex.com/#/swap?outputCurrency=0xFeD613CdD4182b73A032fe1f03Bd7872465010F8">Mdex</a>
+												/
+												<a href="https://poocoin.app/tokens/0x1f09c5fa5522036c7cc7cddea46e9961ca01ead2">Pancakeswap</a>
+												/
+												<a herf="https://www.wbfex.biz/">WBF</a>
+												.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /.panel-default -->
+							<div class="panel panel-default sidebar_pannel">
+								<div class="panel-heading horn">
+									<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftTwo" aria-expanded="false">-  Is C token secure ?</a>
+											</h4>
+								</div>
+								<div id="collapseFifteenLeftTwo" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;" role="tabpanel">
+									<div class="panel-body">
+										<div class="panel_cont">
+											<p>Yes, we have experienced teams including developers, marketers and so on. As is known to us,  Mdex is full of unethical people doing unethical things. Like all of us, you are likely to fall victim to scams in this area. That's why we take every step to ensure C token is secure and your investment is also secure. After C token releasing, you can expect two things: developers locking in the flow pool and relinquishing contract ownership, which means everything becomes infinitely fair..</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /.panel-default -->
+							<div class="panel panel-default sidebar_pannel">
+								<div class="panel-heading bell">
+									<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftThree" aria-expanded="false">- What can I do ?</a>
+											</h4>
+								</div>
+								<div id="collapseFifteenLeftThree" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;" role="tabpanel">
+									<div class="panel-body">
+										<div class="panel_cont">
+											<p>When it comes to achieving carbon neutrality as an individual, it can be a little tricky. Most people don't have time or money to ensure they are removing the same amount of carbon emissions into the atmosphere as they are polluting, but that doesn't mean you're helpless. The issuance of C token can solve this problem well.The holders jointly own a community wallet. We will announce the community wallet address in the later stage. All incoming and outgoing accounts are transparent. Each expenditure of funds raised will be determined by the community by voting. Of course, the role of the community wallet is to promote and build a bridge for cooperation between new energy companies and environmental protection institutions to accelerate the realization of carbor neutrality. Obviously, C token is a perfect tool to help you change the world..</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /.panel-default -->
+							<div class="panel panel-default sidebar_pannel">
+								<div class="panel-heading bell">
+									<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftFour" aria-expanded="false">- Can I join the C community ?</a>
+											</h4>
+								</div>
+								<div id="collapseFifteenLeftFour" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;" role="tabpanel">
+									<div class="panel-body">
+										<div class="panel_cont">
+											<p>Yes, we are very welcome. If you know how to code, you'll be rewarded..</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /.panel-default -->
 
-      <section class="team2-area pd-t100 pd-b50 bg-img">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="section-heading">
-                <h2
-                  class="wow fadeIn animated"
-                  data-wow-duration="1.0s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  There are 4 simple functions about C token
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div
-              class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn animated"
-              data-wow-duration="1.3s"
-              style="
-                visibility: visible;
-                animation-duration: 1.3s;
-                animation-name: fadeIn;
-              "
-            >
-              <div class="team-list">
-                <div class="conte">
-                  <div class="dbox">
-                    <div class="dleft">
-                      <img src="images/team/5.png" alt="" />
-                    </div>
-                    <div class="dright">
-                      <div class="content">
-                        <h3>One</h3>
-                        <!-- <span>(Co-Founder & CEO)</span> -->
-                        <!-- <ul>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										</ul> -->
-                      </div>
-                    </div>
-                  </div>
-                  <div class="con">
-                    <p>
-                      1. Reflection & LP acquisition& combustion. 10% fee is
-                      levied on each transaction, and divided into three parts.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn animated"
-              data-wow-duration="1.6s"
-              style="
-                visibility: visible;
-                animation-duration: 1.6s;
-                animation-name: fadeIn;
-              "
-            >
-              <div class="team-list">
-                <div class="conte">
-                  <div class="dbox">
-                    <div class="dleft">
-                      <img src="images/team/6.png" alt="" />
-                    </div>
-                    <div class="dright">
-                      <div class="content">
-                        <h3>Two</h3>
-                        <!-- <span>(Co-Founder & CEO)</span> -->
-                        <!-- <ul>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										</ul> -->
-                      </div>
-                    </div>
-                  </div>
-                  <div class="con">
-                    <p>
-                      2. The 3% fee is redistributed to all existing holders,
-                      enabling a new model of mining.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn animated"
-              data-wow-duration="1.9s"
-              style="
-                visibility: visible;
-                animation-duration: 1.9s;
-                animation-name: fadeIn;
-              "
-            >
-              <div class="team-list">
-                <div class="conte">
-                  <div class="dbox">
-                    <div class="dleft">
-                      <img src="images/team/7.png" alt="" />
-                    </div>
-                    <div class="dright">
-                      <div class="content">
-                        <h3>Three</h3>
-                        <!-- <span>(Co-Founder & CEO)</span> -->
-                        <!-- <ul>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										</ul> -->
-                      </div>
-                    </div>
-                  </div>
-                  <div class="con">
-                    <p>
-                      3. The 4% fee is automatically repurchased and injected
-                      into the bottom pool in order to strengthen the depth of
-                      its LP pool, which has been permanently locked and cannot
-                      be withdrawn;
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn animated"
-              data-wow-duration="2.1s"
-              style="
-                visibility: visible;
-                animation-duration: 2.1s;
-                animation-name: fadeIn;
-              "
-            >
-              <div class="team-list">
-                <div class="conte">
-                  <div class="dbox">
-                    <div class="dleft">
-                      <img src="images/team/8.png" alt="" />
-                    </div>
-                    <div class="dright">
-                      <div class="content">
-                        <h3>Four</h3>
-                        <!-- <span>(Co-Founder & CEO)</span> -->
-                        <!-- <ul>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										</ul> -->
-                      </div>
-                    </div>
-                  </div>
-                  <div class="con">
-                    <p>
-                      4. The 3% fee goes into the black hole. In a nutshell, the
-                      more frequently the C token exchanges, the more valuable
-                      it is.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="sud">
-        <svg
-          version="1.1"
-          id="Layer_3"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          viewBox="0 0 1920 181.1"
-          style="enable-background: new 0 0 1920 181.1"
-          xml:space="preserve"
-        >
-          <style type="text/css">
-            .st0 {
-              fill-rule: evenodd;
-              clip-rule: evenodd;
-              fill: #1f58b1;
-            }
-          </style>
-          <g>
-            <path
-              class="st0"
-              d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
+						</div>
+						<!--end of /.panel-group-->
+					</div>
+							</div>
+						 </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="sud">
+		<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
+			<style type="text/css">
+				.st0 {
+					fill-rule: evenodd;
+					clip-rule: evenodd;
+					fill: #1f58b1;
+				}
+			</style>
+			<g>
+				<path class="st0" d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
 				 c20.3,9.7,68,40.3,134-12c24-11,59-16.3,104,2c21,7.3,85,27.7,117-14c24-30.7,62.7-55,141-12c26,10.3,72,14.7,110-14
 				 c37.7-19,89.7-29,122,53c23,32.7,47.7,66.3,97,26c24-22.7,51-78.3,137-38c0,0,28.3,15.7,52,15c23.7-0.7,50.7,4.3,76,41
 				 c19.7,19.7,71,36.7,121-2c0,0,22.3-16,55-12c0,0,32.7,6.7,56-71c23.3-76,79-92,122-29c9.3,13.7,25,42,62,43c37,1,51.7,25.3,67,48
-				 c15.3,22.7,51,22.7,53,23v28.1H0V80z"
-            />
-          </g>
-        </svg>
-      </div>
-    </div>
-    <div section-scroll="7" class="wd_scroll_wrap">
-      <!-- <section class="blog-area section">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="section-heading2">
-                <h2
-                  class="wow fadeIn animated"
-                  data-wow-duration="1.0s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  Latest News
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="blog-slider">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div
-                  class="blog wow fadeIn animated"
-                  data-wow-duration="1.3s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1.3s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  <figure><img src="images/blog/1.jpg" alt="" /></figure>
-                  <div class="content">
-                    <span
-                      ><i class="fa fa-calendar-o"></i>January 29, 2018</span
-                    >
-                    <h4>
-                      <a href="#"
-                        >Report about the team's trip to the road show</a
-                      >
-                    </h4>
-                    <p>
-                      Nam nec tellus a odio tincidunt auctor are odio sed non
-                      mauris. This is Photoshop's ern of Lorem Ipsum Proin
-                      gravida.
-                    </p>
-                    <a href="#" class="blog-btn"
-                      >read more <i class="fa fa-arrow-circle-o-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div
-                  class="blog wow fadeIn animated"
-                  data-wow-duration="1.6s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1.6s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  <figure><img src="images/blog/2.jpg" alt="" /></figure>
-                  <div class="content">
-                    <span
-                      ><i class="fa fa-calendar-o"></i>January 29, 2018</span
-                    >
-                    <h4>
-                      <a href="#"
-                        >Report about the team's trip to the road show</a
-                      >
-                    </h4>
-                    <p>
-                      Nam nec tellus a odio tincidunt auctor are odio sed non
-                      mauris. This is Photoshop's ern of Lorem Ipsum Proin
-                      gravida.
-                    </p>
-                    <a href="#" class="blog-btn"
-                      >read more <i class="fa fa-arrow-circle-o-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div
-                  class="blog wow fadeIn animated"
-                  data-wow-duration="1.8s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1.8s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  <figure><img src="images/blog/3.jpg" alt="" /></figure>
-                  <div class="content">
-                    <span
-                      ><i class="fa fa-calendar-o"></i>January 29, 2018</span
-                    >
-                    <h4>
-                      <a href="#"
-                        >Report about the team's trip to the road show</a
-                      >
-                    </h4>
-                    <p>
-                      Nam nec tellus a odio tincidunt auctor are odio sed non
-                      mauris. This is Photoshop's ern of Lorem Ipsum Proin
-                      gravida.
-                    </p>
-                    <a href="#" class="blog-btn"
-                      >read more <i class="fa fa-arrow-circle-o-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="blog">
-                  <figure><img src="images/blog/1.jpg" alt="" /></figure>
-                  <div class="content">
-                    <span
-                      ><i class="fa fa-calendar-o"></i>January 29, 2018</span
-                    >
-                    <h4>
-                      <a href="#"
-                        >Report about the team's trip to the road show</a
-                      >
-                    </h4>
-                    <p>
-                      Nam nec tellus a odio tincidunt auctor are odio sed non
-                      mauris. This is Photoshop's ern of Lorem Ipsum Proin
-                      gravida.
-                    </p>
-                    <a href="#" class="blog-btn"
-                      >read more <i class="fa fa-arrow-circle-o-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="blog">
-                  <figure><img src="images/blog/2.jpg" alt="" /></figure>
-                  <div class="content">
-                    <span
-                      ><i class="fa fa-calendar-o"></i>January 29, 2018</span
-                    >
-                    <h4>
-                      <a href="#"
-                        >Report about the team's trip to the road show</a
-                      >
-                    </h4>
-                    <p>
-                      Nam nec tellus a odio tincidunt auctor are odio sed non
-                      mauris. This is Photoshop's ern of Lorem Ipsum Proin
-                      gravida.
-                    </p>
-                    <a href="#" class="blog-btn"
-                      >read more <i class="fa fa-arrow-circle-o-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="blog">
-                  <figure><img src="images/blog/3.jpg" alt="" /></figure>
-                  <div class="content">
-                    <span
-                      ><i class="fa fa-calendar-o"></i>January 29, 2018</span
-                    >
-                    <h4>
-                      <a href="#"
-                        >Report about the team's trip to the road show</a
-                      >
-                    </h4>
-                    <p>
-                      Nam nec tellus a odio tincidunt auctor are odio sed non
-                      mauris. This is Photoshop's ern of Lorem Ipsum Proin
-                      gravida.
-                    </p>
-                    <a href="#" class="blog-btn"
-                      >read more <i class="fa fa-arrow-circle-o-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="view-btn">
-              <a href="#">All News</a>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <section class="blog-area section contt_area faq_area">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="section-heading2">
-                <h2
-                  class="wow fadeIn animated"
-                  data-wow-duration="1.0s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  Frequently Asked Questions‍
-                </h2>
-              </div>
-            </div>
-            <div
-              class="
-                col-lg-12 col-md-12 col-sm-12 col-xs-12
-                wow
-                fadeIn
-                animated
-              "
-              data-wow-duration="1.5s"
-            >
-              <div class="team2-area btc_right_contt">
-                <div class="team-list">
-                  <div class="btc_faq_main_wrapper">
-                    <div class="accordionFifteen">
-                      <div
-                        class="panel-group"
-                        id="accordionFifteenLeft"
-                        role="tablist"
-                      >
-                        <div class="panel panel-default sidebar_pannel">
-                          <div class="panel-heading desktop">
-                            <h4 class="panel-title">
-                              <a
-                                data-toggle="collapse"
-                                data-parent="#accordionFifteenLeft"
-                                href="#collapseFifteenLeftone"
-                                aria-expanded="false"
-                                >Q1: Can I trade C token at an exchange ?</a
-                              >
-                            </h4>
-                          </div>
-                          <div
-                            id="collapseFifteenLeftone"
-                            class="panel-collapse collapse in"
-                            aria-expanded="true"
-                            role="tabpanel"
-                          >
-                            <div class="panel-body">
-                              <div class="panel_cont">
-                                <p>
-                                  Yes, C token is already tradable on Mdex. The
-                                  contract on heco smartchain is
-                                  0xFeD613CdD4182b73A032fe1f03Bd7872465010F8
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="panel panel-default sidebar_pannel">
-                          <div class="panel-heading horn">
-                            <h4 class="panel-title">
-                              <a
-                                class="collapsed"
-                                data-toggle="collapse"
-                                data-parent="#accordionFifteenLeft"
-                                href="#collapseFifteenLeftTwo"
-                                aria-expanded="false"
-                                >Q2: Is C token secure ?</a
-                              >
-                            </h4>
-                          </div>
-                          <div
-                            id="collapseFifteenLeftTwo"
-                            class="panel-collapse collapse"
-                            aria-expanded="false"
-                            style="height: 0px"
-                            role="tabpanel"
-                          >
-                            <div class="panel-body">
-                              <div class="panel_cont">
-                                <p>
-                                  Yes, we have experienced teams including
-                                  developers, marketers and so on. As is known
-                                  to us, Mdex is full of unethical people doing
-                                  unethical things. Like all of us, you are
-                                  likely to fall victim to scams in this area.
-                                  That's why we take every step to ensure C
-                                  token is secure and your investment is also
-                                  secure. After C token releasing, you can
-                                  expect two things: developers locking in the
-                                  flow pool and relinquishing contract
-                                  ownership, which means everything becomes
-                                  infinitely fair.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="panel panel-default sidebar_pannel">
-                          <div class="panel-heading bell">
-                            <h4 class="panel-title">
-                              <a
-                                class="collapsed"
-                                data-toggle="collapse"
-                                data-parent="#accordionFifteenLeft"
-                                href="#collapseFifteenLeftThree"
-                                aria-expanded="false"
-                                >Q3: What can I do ?</a
-                              >
-                            </h4>
-                          </div>
-                          <div
-                            id="collapseFifteenLeftThree"
-                            class="panel-collapse collapse"
-                            aria-expanded="false"
-                            style="height: 0px"
-                            role="tabpanel"
-                          >
-                            <div class="panel-body">
-                              <div class="panel_cont">
-                                <p>
-                                  When it comes to achieving carbon neutrality
-                                  as an individual, it can be a little tricky.
-                                  Most people don't have time or money to ensure
-                                  they are removing the same amount of carbon
-                                  emissions into the atmosphere as they are
-                                  polluting, but that doesn't mean you're
-                                  helpless. The issuance of C token can solve
-                                  this problem well.The holders jointly own a
-                                  community wallet. We will announce the
-                                  community wallet address in the later stage.
-                                  All incoming and outgoing accounts are
-                                  transparent. Each expenditure of funds raised
-                                  will be determined by the community by voting.
-                                  Of course, the role of the community wallet is
-                                  to promote and build a bridge for cooperation
-                                  between new energy companies and environmental
-                                  protection institutions to accelerate the
-                                  realization of carbor neutrality. Obviously, C
-                                  token is a perfect tool to help you change the
-                                  world.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="sud">
-        <svg
-          version="1.1"
-          id="Layer_3"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          viewBox="0 0 1920 181.1"
-          style="enable-background: new 0 0 1920 181.1"
-          xml:space="preserve"
-        >
-          <style type="text/css">
-            .st0 {
-              fill-rule: evenodd;
-              clip-rule: evenodd;
-              fill: #1f58b1;
-            }
-          </style>
-          <g>
-            <path
-              class="st0"
-              d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
-				 c20.3,9.7,68,40.3,134-12c24-11,59-16.3,104,2c21,7.3,85,27.7,117-14c24-30.7,62.7-55,141-12c26,10.3,72,14.7,110-14
-				 c37.7-19,89.7-29,122,53c23,32.7,47.7,66.3,97,26c24-22.7,51-78.3,137-38c0,0,28.3,15.7,52,15c23.7-0.7,50.7,4.3,76,41
-				 c19.7,19.7,71,36.7,121-2c0,0,22.3-16,55-12c0,0,32.7,6.7,56-71c23.3-76,79-92,122-29c9.3,13.7,25,42,62,43c37,1,51.7,25.3,67,48
-				 c15.3,22.7,51,22.7,53,23v28.1H0V80z"
-            />
-          </g>
-        </svg>
-      </div>
-      <section class="blog-area section contt_area">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="section-heading2">
-                <h2
-                  class="wow fadeIn animated"
-                  data-wow-duration="1.0s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  Contact Us
-                </h2>
-              </div>
-            </div>
-            <div
-              class="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow fadeIn animated"
-              data-wow-duration="1.0s"
-            >
-              <div class="btc_cont_form_wrapper">
-                <div class="row">
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="btc_cont_form_wrapper">
-                      <input type="text" placeholder="Your Name" />
-                    </div>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="btc_cont_form_wrapper btc_cont_form_wrapper2">
-                      <input type="text" placeholder="Your Email" />
-                    </div>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="btc_cont_form_wrapper btc_cont_form_wrapper2">
-                      <input type="text" placeholder="Your Phone" />
-                    </div>
-                  </div>
-                  <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				 c15.3,22.7,51,22.7,53,23v28.1H0V80z" />
+			</g>
+		</svg>
+	</div>
+	<!-- <section class="blog-area section contt_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="section-heading2">
+						<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Contact Us</h2>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow  fadeIn animated"  data-wow-duration="1.0s">
+					<div class="btc_cont_form_wrapper">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="btc_cont_form_wrapper">
+									<input type="text" placeholder="Your Name">
+								</div>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="btc_cont_form_wrapper btc_cont_form_wrapper2">
+									<input type="text" placeholder="Your Email">
+								</div>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 								<div class="btc_cont_form_wrapper3">
 									<textarea rows="6" placeholder="Your Message"></textarea>
 								</div>
-							</div> -->
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="view-btn btc_contt_btn">
-                      <a href="#">SEND</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow fadeIn animated"
-              data-wow-duration="1.5s"
-            >
-              <div class="team2-area btc_right_contt">
-                <div class="team-list">
-                  <div class="btc_contt_list_main_wrapper">
-                    <div class="btc_contt_list_inner_wrapper">
-                      <div class="btc_contt_icon_wrapper">
-                        <i class="fa fa-map-marker"></i>
-                      </div>
-                      <div class="btc_contt_icon_cont_wrapper">
-                        <p>110, B Kalani Bagh, Dewas M.P.</p>
-                        <p>INDIA #455001</p>
-                      </div>
-                    </div>
-                    <div
-                      class="
-                        btc_contt_list_inner_wrapper
-                        btc_contt_list_inner_wrapper2
-                      "
-                    >
-                      <div class="btc_contt_icon_wrapper">
-                        <i class="fa fa-map-marker"></i>
-                      </div>
-                      <div class="btc_contt_icon_cont_wrapper">
-                        <p>+ 91 12345 67890</p>
-                        <p>+ 91 12345 67890</p>
-                      </div>
-                    </div>
-                    <div
-                      class="
-                        btc_contt_list_inner_wrapper
-                        btc_contt_list_inner_wrapper2
-                      "
-                    >
-                      <div class="btc_contt_icon_wrapper">
-                        <i class="fa fa-map-marker"></i>
-                      </div>
-                      <div class="btc_contt_icon_cont_wrapper">
-                        <p><a href="#">bitunit@example.com</a></p>
-                        <p><a href="#">ico@example.com</a></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- <section class="media-area section bg-img jarallax">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="section-heading">
-                <h2
-                  class="wow fadeIn animated"
-                  data-wow-duration="1.0s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  Press (Media)
-                </h2>
-              </div>
-            </div>
-            <div
-              class="
-                col-lg-8
-                col-md-8
-                col-sm-12
-                col-xs-12
-                col-lg-offset-2
-                col-md-offset-2
-              "
-            >
-              <div class="mediabrand">
-                <ul>
-                  <li
-                    class="wow fadeIn animated"
-                    data-wow-duration="1.3s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 1.3s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    <a href="#"><img src="images/media/1.png" alt="" /></a>
-                  </li>
-                  <li
-                    class="wow fadeIn animated"
-                    data-wow-duration="1.6s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 1.6s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    <a href="#"><img src="images/media/2.png" alt="" /></a>
-                  </li>
-                  <li
-                    class="wow fadeIn animated"
-                    data-wow-duration="1.9s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 1.9s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    <a href="#"><img src="images/media/3.png" alt="" /></a>
-                  </li>
-                  <li
-                    class="wow fadeIn animated"
-                    data-wow-duration="2.1s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 2.1s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    <a href="#"><img src="images/media/4.png" alt="" /></a>
-                  </li>
-                  <li
-                    class="wow fadeIn animated"
-                    data-wow-duration="2.4s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 2.4s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    <a href="#"><img src="images/media/5.png" alt="" /></a>
-                  </li>
-                  <li
-                    class="wow fadeIn animated"
-                    data-wow-duration="2.7s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 2.7s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    <a href="#"><img src="images/media/6.png" alt="" /></a>
-                  </li>
-                  <li
-                    class="wow fadeIn animated"
-                    data-wow-duration="2.7s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 2.7s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    <a href="#"><img src="images/media/7.png" alt="" /></a>
-                  </li>
-                  <li
-                    class="wow fadeIn animated"
-                    data-wow-duration="2.7s"
-                    style="
-                      visibility: visible;
-                      animation-duration: 2.7s;
-                      animation-name: fadeIn;
-                    "
-                  >
-                    <a href="#"><img src="images/media/8.png" alt="" /></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="sud">
-        <svg
-          version="1.1"
-          id="Layer_3"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          viewBox="0 0 1920 181.1"
-          style="enable-background: new 0 0 1920 181.1"
-          xml:space="preserve"
-        >
-          <style type="text/css">
-            .st0 {
-              fill-rule: evenodd;
-              clip-rule: evenodd;
-              fill: #1f58b1;
-            }
-          </style>
-          <g>
-            <path
-              class="st0"
-              d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="view-btn btc_contt_btn">
+									<a href="#">SEND</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow  fadeIn animated" data-wow-duration="1.5s">
+					<div class="team2-area btc_right_contt">
+						 <div class="team-list">
+							<div class="btc_contt_list_main_wrapper">
+								<div class="btc_contt_list_inner_wrapper">
+									<div class="btc_contt_icon_wrapper">
+										<i class="fa fa-map-marker"></i>
+									</div>
+									<div class="btc_contt_icon_cont_wrapper">
+										<p>110, B Kalani Bagh, Dewas M.P.</p>
+										<p>INDIA #455001</p>
+									</div>
+								</div>
+								<div class="btc_contt_list_inner_wrapper btc_contt_list_inner_wrapper2">
+									<div class="btc_contt_icon_wrapper">
+										<i class="fa fa-map-marker"></i>
+									</div>
+									<div class="btc_contt_icon_cont_wrapper">
+										<p>+ 91 12345 67890</p>
+										<p>+ 91 12345 67890</p>
+									</div>
+								</div>
+								<div class="btc_contt_list_inner_wrapper btc_contt_list_inner_wrapper2">
+									<div class="btc_contt_icon_wrapper">
+										<i class="fa fa-map-marker"></i>
+									</div>
+									<div class="btc_contt_icon_cont_wrapper">
+										<p><a href="#">bitunit@example.com</a></p>
+										<p><a href="#">ico@example.com</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<section class="media-area section bg-img jarallax">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="section-heading">
+						<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Partner</h2>
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+					<div class="mediabrand">
+						<ul>
+							<li class="wow  fadeIn animated " data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
+								<a href="https://bridge.poly.network/token/C">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/media/1.png" width="64" height="64" alt="" /><p>PolyNetwork</p></a>
+							</li>
+							<li class="wow  fadeIn animated" data-wow-duration="2.7s" style="visibility: visible; animation-duration: 2.7s; animation-name: fadeIn;">
+								<a href="https://www.wbfex.biz/"><img src="images/media/9.png" width="64" height="64" alt="" /><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WBF</p> </a>
+							</li>
+							<li class="wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
+								<a href="https://www.coingecko.com/en/coins/c-token"><img src="images/media/3.png" width="64" height="64" alt="" /><p>Coingecko</p></a>
+							</li>
+							<li class="wow  fadeIn animated" data-wow-duration="2.7s" style="visibility: visible; animation-duration: 2.7s; animation-name: fadeIn;">
+								<a href="https://www.huobi.fm/en-us/"><img src="images/media/6.png" width="64" height="64" alt="" /><p>HuoBi</p></a>
+							</li>	
+							<li class="wow  fadeIn animated" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-name: fadeIn;">
+								<a href="https://www.lianantech.com/#/index"><img src="images/media/5.png" width="64" height="64" alt="" /><p>LIAN AN</p></a>
+							</li>
+							<li class="wow  fadeIn animated" data-wow-duration="2.7s" style="visibility: visible; animation-duration: 2.7s; animation-name: fadeIn;">
+								<a href="https://xfarmer.net/"><img src="images/media/10.png" width="64" height="64" alt="" /><p>XFARMER</p></a>
+							</li>	
+							<li class="wow  fadeIn animated" data-wow-duration="2.7s" style="visibility: visible; animation-duration: 2.7s; animation-name: fadeIn;">
+								<a href="https://gnosis-safe.io/"><img src="images/media/7.png" width="64" height="64" alt="" /><p>Gnosis-Safe</p></a>
+							</li>
+							<li class="wow  fadeIn animated" data-wow-duration="2.7s" style="visibility: visible; animation-duration: 2.7s; animation-name: fadeIn;">
+								<a href="https://www.binance.com/en"><img src="images/media/8.png" width="64" height="64" alt="" /><p>Binance</p></a>
+							</li>
+							<li class="wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
+								<a href="https://www.feixiaohao.cc/currencies/ctoken/">&nbsp;&nbsp;<img src="images/media/2.png" width="64" height="64" alt="" /><p>Feixiaohao</p></a>
+							</li>
+							<li class="wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
+								<a href="https://pancakeswap.finance/">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/media/4.png" width="64" height="64" alt="" /><p>Pancakeswap</p></a>
+							</li>	
+				
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="sud">
+		<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
+			<style type="text/css">
+				.st0 {
+					fill-rule: evenodd;
+					clip-rule: evenodd;
+					fill: #1f58b1;
+				}
+			</style>
+			<g>
+				<path class="st0" d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
 				 c20.3,9.7,68,40.3,134-12c24-11,59-16.3,104,2c21,7.3,85,27.7,117-14c24-30.7,62.7-55,141-12c26,10.3,72,14.7,110-14
 				 c37.7-19,89.7-29,122,53c23,32.7,47.7,66.3,97,26c24-22.7,51-78.3,137-38c0,0,28.3,15.7,52,15c23.7-0.7,50.7,4.3,76,41
 				 c19.7,19.7,71,36.7,121-2c0,0,22.3-16,55-12c0,0,32.7,6.7,56-71c23.3-76,79-92,122-29c9.3,13.7,25,42,62,43c37,1,51.7,25.3,67,48
-				 c15.3,22.7,51,22.7,53,23v28.1H0V80z"
-            />
-          </g>
-        </svg>
-      </div> -->
-      <!--Footer area start here-->
-      <!-- <footer class="top-foo">
-        <div id="footer-js">
-          <div class="footer-top section">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div class="con">
-                    <h2
-                      class="wow fadeIn animated"
-                      data-wow-duration="1.0s"
-                      style="
-                        visibility: visible;
-                        animation-duration: 1s;
-                        animation-name: fadeIn;
-                      "
-                    >
-                      Subscribe to us!
-                    </h2>
-                    <ul>
-                      <li
-                        class="wow fadeIn animated"
-                        data-wow-duration="1.3s"
-                        style="
-                          visibility: visible;
-                          animation-duration: 1.3s;
-                          animation-name: fadeIn;
-                        "
-                      >
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                      </li>
-                      <li
-                        class="wow fadeIn animated"
-                        data-wow-duration="1.5s"
-                        style="
-                          visibility: visible;
-                          animation-duration: 1.5;
-                          animation-name: fadeIn;
-                        "
-                      >
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                      </li>
-                      <li
-                        class="wow fadeIn animated"
-                        data-wow-duration="1.9s"
-                        style="
-                          visibility: visible;
-                          animation-duration: 1.9s;
-                          animation-name: fadeIn;
-                        "
-                      >
-                        <a href="#"><i class="fa fa-send-o"></i></a>
-                      </li>
-                      <li
-                        class="wow fadeIn animated"
-                        data-wow-duration="2.1s"
-                        style="
-                          visibility: visible;
-                          animation-duration: 2.1s;
-                          animation-name: fadeIn;
-                        "
-                      >
-                        <a href="#"><i class="fa fa-bitcoin"></i></a>
-                      </li>
-                      <li
-                        class="wow fadeIn animated"
-                        data-wow-duration="2.4s"
-                        style="
-                          visibility: visible;
-                          animation-duration: 2.4s;
-                          animation-name: fadeIn;
-                        "
-                      >
-                        <a href="#"><i class="fa fa-envelope"></i></a>
-                      </li>
-                    </ul>
-                    <div class="row">
-                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div
-                          class="search_btm wow fadeIn animated"
-                          data-wow-duration="2.6s"
-                          style="
-                            visibility: visible;
-                            animation-duration: 2.6s;
-                            animation-name: fadeIn;
-                          "
-                        >
-                          <div class="search_main">
-                            <input
-                              type="text"
-                              placeholder="enter your email address"
-                            />
-                            <button type="submit">subscribe</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer> -->
-      <footer class="foo-bot">
-        <div class="footer-bottom">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div
-                  class="copyright wow fadeIn animated"
-                  data-wow-duration="1.9s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  <p>
-                    Copyright &copy; 2021 c-token.info All rights reserved.<a
-                      target="_blank"
-                      href="http://sc.chinaz.com/moban/"
-                      >&#x7F51;&#x9875;&#x6A21;&#x677F;</a
-                    >
-                  </p>
-                </div>
-              </div>
-              <!-- <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div
-                  class="foo-link wow fadeIn animated"
-                  data-wow-duration="1.0s"
-                  style="
-                    visibility: visible;
-                    animation-duration: 1s;
-                    animation-name: fadeIn;
-                  "
-                >
-                  <ul>
-                    <li><a href="#">WhitePaper</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                  </ul>
-                </div>
-              </div> -->
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-    <!--Footer area end here-->
-    <!-- all js here -->
-    <!-- jquery latest version -->
-    <script src="js/vendor/jquery-3.2.1.min.js"></script>
-    <!-- tether js -->
-    <script src="js/tether.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- owl.carousel js -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- meanmenu js -->
-    <script src="js/jquery.meanmenu.js"></script>
-    <!-- jquery-ui js -->
-    <script src="js/jquery-ui.min.js"></script>
-    <!-- easypiechart js -->
-    <script src="js/jquery.easypiechart.min.js"></script>
-    <!-- particles js -->
-    <!-- wow js -->
-    <script src="js/wow.min.js"></script>
-    <!-- smooth-scroll js -->
-    <script src="js/smooth-scroll.min.js"></script>
-    <!-- plugins js -->
-    <script src="js/plugins.js"></script>
-    <!-- EChartJS JavaScript -->
-    <script src="js/echarts-en.min.js"></script>
-    <script src="js/echarts-liquidfill.min.js"></script>
-    <script src="js/vc_round_chart.min.js"></script>
-    <script src="js/videojs-ie8.min.js"></script>
-    <script src="js/video.js"></script>
-    <!---<script src="js/Youtube.min.js"></script>--->
-    <!-- main js -->
-    <script src="js/main.js"></script>
-  </body>
+				 c15.3,22.7,51,22.7,53,23v28.1H0V80z" />
+			</g>
+		</svg>
+	</div>
+	<!--Footer area start here-->
+	<footer class="top-foo">
+		<div id="footer-js">
+			<div class="footer-top section">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="con">
+								<h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Contact us!</h2>
+								<ul>
+									<li class="wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;"><a href="https://github.com/c-token"><i class="fa fa-github"></i></a></li>
+									<li class="wow  fadeIn animated" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5; animation-name: fadeIn;"><a href="https://twitter.com/Ctokenofficial"><i class="fa fa-twitter"></i></a></li>
+									<li class="wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;"><a href="https://t.me/c_for_wealth"><i class="fa fa-telegram"></i></a></li>
+									<li class="wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;"><a href="https://weibo.com/p/1008082a4524cefe51a08257289bb48ea6f28f/super_index"><i class="fa fa-weibo"></i></a></li>
+									<li class="wow  fadeIn animated" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-name: fadeIn;"><a href="https://jq.qq.com/?_wv=1027&k=PXek65jn"><i class="fa fa-qq"></i></a></li>
+								</ul>
+								<!-- <div class="row">
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<div class="search_btm wow  fadeIn animated" data-wow-duration="2.6s" style="visibility: visible; animation-duration: 2.6s; animation-name: fadeIn;">
+											<div class="search_main">
+												<input type="text" placeholder="enter your email address">
+												<button type="submit">subscribe</button>
+											</div>
+										</div>
+									</div>
+								</div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<footer class="foo-bot">
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="copyright wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
+							<p>Copyright &copy; 2021 c-token.info All rights reserved.</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="foo-link wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
+							<ul>
+								<li><a href="#">WhitePaper</a></li>
+								<li><a href="#">Terms of Service</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+<!--Footer area end here-->
+<!-- all js here -->
+<!-- jquery latest version -->
+<script src="js/vendor/jquery-3.2.1.min.js"></script>
+<!-- tether js -->
+<script src="js/tether.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- owl.carousel js -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- meanmenu js -->
+<script src="js/jquery.meanmenu.js"></script>
+<!-- jquery-ui js -->
+<script src="js/jquery-ui.min.js"></script>
+<!-- easypiechart js -->
+<script src="js/jquery.easypiechart.min.js"></script>
+<!-- particles js -->
+<!-- wow js -->
+<script src="js/wow.min.js"></script>
+<!-- smooth-scroll js -->
+<script src="js/smooth-scroll.min.js"></script>
+<!-- plugins js -->
+<script src="js/plugins.js"></script>
+<!-- EChartJS JavaScript -->
+<script src="js/echarts-en.min.js"></script>
+<script src="js/echarts-liquidfill.min.js"></script>
+<script src="js/vc_round_chart.min.js"></script>
+<script src="js/videojs-ie8.min.js"></script>
+<script src="js/video.js"></script>
+<!---<script src="js/Youtube.min.js"></script>--->
+<!-- main js -->
+<script src="js/main.js"></script>
+
+</body>
 </html>
